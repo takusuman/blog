@@ -34,7 +34,7 @@ contém os drivers para minha placa de rede wireless, que será essencial para
 conseguir reparar o sistema (afinal, vou reinstalar todos os pacotes).  
 
 Primeiramente, caso você não tenha a imagem de disco do Fatdog, vá no seu site
-hospedado em https://distro.ibiblio.org/fatdog/web/ e faça o download da ISO,
+hospedado em [https://distro.ibiblio.org/fatdog/web/](https://distro.ibiblio.org/fatdog/web/) e faça o download da ISO,
 isso vai requerer conhecimento mínimo em inglês para que você entenda as
 instruções iniciais de download.
 Após isso, apenas grave a imagem em um CD ou em uma pendrive, não estarei
