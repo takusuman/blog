@@ -35,6 +35,7 @@ github_username:  takusuman
 remote_theme: kotet/ultralight
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Build settings
 markdown: kramdown
