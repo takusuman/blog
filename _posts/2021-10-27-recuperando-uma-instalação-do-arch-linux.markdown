@@ -50,6 +50,7 @@ Após subir o X no Fatdog, caso você tenha o feito, a interface que irá
 subir será o jwm; não é de muita importância fala sobre isso aqui, a
 interface é análoga ao Windows 2000 e só precisamos abrir o terminal,
 que tem um ícone próprio na barra de tarefas.  
+![](/blog/assets/img/fatdog_x.png)  
 
 O terminal vai abrir já logado no usuário root (assim como toda a sessão
 do Fatdog em si), então não teremos a preocupação de procurar pela senha
