@@ -9,47 +9,48 @@ arquivo no meu disco; então talvez eu esteja um pouco menos animado para
 escrever e explicar isso.  
 
 Não sei você, mas comigo o meu sistema sempre quebra em algum momento, seja
-sozinho, como no caso do Arch, seja por algo que eu faça de errado, como já foi
-no Slackware há uns meses atrás.  
+sozinho --- como no caso do Arch --- seja por algo que eu faça de errado ---
+como já foi no Slackware há uns meses atrás.  
 Recentemente --- na real anteontem --- minha instalação do Arch Linux
 simplesmente quebrou depois de uma atualização. Eu atualizei depois que o
-Firefox simplesmente tinha parado de reproduzir vídeos e áudio e a atualização
+Firefox simplesmente tinha parado de reproduzir vídeo e áudio; a atualização
 em si correu normal.  
 Nessas horas apenas duas coisas vêm à cabeça: "Como eu queria ter uma máquina
-decente para rodar NixOS" e "F*deu"  
+decente para rodar NixOS" e "F\*deu"  
 Dentre essas duas, a que ecoou mais alto foi a segunda, afinal o sistema quebrou
-apenas há duas semanas antes que eu pudesse finalizar meu trabalho de física
-que, como estou fazendo utilizando um programa praticamente exclusivo para
+apenas há menos de duas semanas antes que eu pudesse finalizar meu trabalho de
+física que, como estou fazendo utilizando um programa praticamente exclusivo para
 Linux (e que estou sem saco de tentar fazer funcionar no Windows), eu precisaria
 do meu sistema funcional o mais rápido o possível.  
 
 A causa para esse erro, possivelmente, é porque o `pacman` não atualiza o LiLo
 automaticamente, logo quando você vai bootar ele sempre redireciona para a
-imagem antiga do kernel, o que fica num loop infernal.  
+imagem antiga do kernel, o que fica num loop infernal do LiLo tentando
+carregar o kernel e voltando para a BIOS.  
 
 Como isso já tinha acontecido comigo antes, há umas semanas atrás, eu sei o que
-fazer.
+fazer.  
 Para reparar, estarei utilizando um CD com Fatdog Linux 64-bits apenas, pois ele
 contém os drivers para minha placa de rede wireless, que será essencial para
-conseguir reparar o sistema (afinal, vou reinstalar todos os pacotes).  
+conseguir reparar o sistema (afinal, vou reinstalar os pacotes do kernel).  
 
 Primeiramente, caso você não tenha a imagem de disco do Fatdog, vá no seu site
 hospedado em [https://distro.ibiblio.org/fatdog/web/](https://distro.ibiblio.org/fatdog/web/) e faça o download da ISO,
 isso vai requerer conhecimento mínimo em inglês para que você entenda as
-instruções iniciais de download.
+instruções iniciais de download.  
 Após isso, apenas grave a imagem em um CD ou em uma pendrive, não estarei
 falando sobre essa parte aqui pois não é o objetivo principal desse texto.  
 
 Normalmente eu bootaria no modo sem o servidor gráfico X habilitado (na tela de
-boot, ele é chamado "Fatdog64 without graphical desktop"), mas para fins de
+boot, ele é chamado `"Fatdog64 without graphical desktop"`), mas para fins de
 demonstração gráfica eu subirei o X para que eu possa anexar as screenshots
 neste artigo; demora um pouco mais que o normal, mas nada que seja doloroso de
 esperar.  
 
 Após subir o X no Fatdog, caso você tenha o feito, a interface que irá
-subir será o jwm; não é de muita importância fala sobre isso aqui, a
-interface é análoga ao Windows 2000 e só precisamos abrir o terminal,
-que tem um ícone próprio na barra de tarefas.  
+subir será o jwm; não é de muita importância falar sobre isso aqui --- a
+interface é análoga ao Windows 2000 e só precisamos abrir o terminal
+mesmo, que tem um ícone próprio na barra de tarefas.  
 ![](/blog/assets/img/fatdog_x.png)  
 
 O terminal vai abrir já logado no usuário root (assim como toda a sessão
@@ -65,7 +66,7 @@ Primeiramente, liste todas suas partições usando o `fdisk -l`:
 aparecer no `fdisk`, mas podemos ignorá-las para o que estamos fazendo
 aqui.  
 
-```
+```console
 # fdisk -l
 
 Disk /dev/sda: 465.8 GiB, 500107862016 bytes, 976773168 sectors
@@ -96,7 +97,7 @@ Eu localizei minhas partições de boot e root, que são `/dev/sda1` e
 `/dev/sda2`, respectivamente. Só irei montá-las normalmente com o 
 `mount` em `/mnt`:  
 
-```
+```console
 # mount /dev/sda2 /mnt # disco root (/)
 # mount /dev/sda1 /mnt/boot # disco boot ( /boot)
 ```  
@@ -108,7 +109,7 @@ de partições legíveis (ou não) criadas pelo kernel a tempo de execução
 no `/proc` e o `pacman` não consegue operar sem o `/sys` e o `/proc`
 montados.  
 
-```
+```console
 # mount -R /proc /mnt/proc # espelhando o /proc no chroot
 # mount -R /sys /mnt/sys # espelhando o /sys no chroot
 # mount -R /dev /mnt/dev # espelhando o /dev/ no chroot
@@ -122,7 +123,7 @@ pode pular todos esses passos.
 Por padrão, no Fatdog, a placa de rede está sempre "baixa", para subi-la
 usaremos o comando `ip`, que ficaria assim:  
 
-```
+```console
 # ip a # listando as interfaces
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -141,19 +142,19 @@ Feito isso, agora só precisamos conectar o Fatdog na internet usando o
 `wpa_supplicant`. É necessário que você saiba o identificador (nome
 bonito para o literal nome da rede) e a senha. Estarei usando um
 redirecionamento em Shell script que nos poupa de criar um arquivo só
-com essas informações:
+com essas informações:  
 
-```
+```console
 # wpa_supplicant -Dnl80211 -iwlan0 -c<(wpa_passphrase 'nome da sua rede' senha4lph4numeric4)
 ```  
 
 Feita a conexão básica ao roteador, nós precisamos subir a daemon DHCP.  
-É ela que determina o IP que sua máquina terá na rede.
+É ela que determina o IP que sua máquina terá na rede e, sem ela, você não vai
+conseguir conectar à outras máquinas na rede.  
 Como possivelmente seu terminal estará com o log do `wpa_supplicant`
-na tela, você precisará abrir um novo. Abra-o normalmente e digite
-`dhcpcd`:  
+na tela, você precisará abrir um novo. Abra-o e digite `dhcpcd`:  
 
-```
+```console
 # dhcpcd
 dev: loaded udev
 eth0: adding address fe80::d13:9adf:d62a:433e
@@ -172,7 +173,7 @@ para o nosso chroot. Sem esse arquivo no nosso chroot, ele estará sem um
 IP válido (que, deve ser compartilhado tanto entre o Fatdog quanto entre
 o chroot):  
 
-```
+```console
 # cp -v /etc/resolv.conf /mnt/etc/resolv.conf 
 ‘/etc/resolv.conf’ -> ‘/mnt/etc/resolv.conf’
 ```
@@ -193,14 +194,14 @@ PS1='G450%; '
 Após configurarmos, opcionalmente, nosso `$PS1`, apenas rodamos o
 seguinte comando do `pacman`:  
 
-```
+```console
 # pacman -Syyyu linux linux-firmware
 ```  
 
 Ele irá reinstalar o kernel por completo; caso você, assim como eu, use
 o kernel LTS, só adicione `-lts` após o nome.  
 
-```
+```console
 G450%; pacman -Syyyu linux-lts linux-firmware
 :: Synchronizing package databases...
  core
@@ -231,7 +232,7 @@ usando o caminho completo, para que ele possa gerar novamente o seu
 arquivo de configuração e carregar a imagem nova do kernel ao invés da
 antiga agora inexistente:  
 
-```
+```console
 G450%; /sbin/lilo
 Added arch  +  *
 Added arch-fallback  +
@@ -242,4 +243,9 @@ Feito, finalmente.
 Agora podemos sair do chroot e reiniciar. Cruzem os dedos para que
 boote.  
 
-No meu caso, bootou com sucesso. Missão cumprida!
+No meu caso, bootou com sucesso (estou finalizando esse artigo por meio
+do Vim). Missão cumprida!  
+Esse artigo pode ser moldado ao seu problema, afinal grande parte dele é
+dedicada ao chroot em si.  
+
+Boa sorte!
