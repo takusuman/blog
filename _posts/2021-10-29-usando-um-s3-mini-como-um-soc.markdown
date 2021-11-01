@@ -51,24 +51,7 @@ livre (tá na MIT), criado pela Glass Echidna, que é uma empresa australiana qu
 produz software e presta consultoria de TI, ele tá disponível no AUR, então
 instalar ele no Arch é bem straightforward.
 
- <StYlE>
-  body, pre { margin: 0 }
-  #vt100 {
-    float: left;
-    font-size: 12pt;
-    border: 0px solid rgb(0.00%, 0.00%, 0.00%);
-    padding: 2px;
-    background: rgb(0.00%, 0.00%, 0.00%)
-  }
-  .ul { text-decoration: underline }
-  .bd { font-weight: bold }
-  .it { font-style: italic }
-  .st { text-decoration: line-through }
-  .lu { text-decoration: line-through underline }
-  </styLe>
- 
- 
-  <diV id='vt100'>
+<diV id='vt100'>
    <pRE><spaN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; git clone https://aur.archlinux.org/heimdall-git                                                                       </sPan>
 <span class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>Cloning into 'heimdall-git'...                                                                                                </Span>
 <span class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>remote: Enumerating objects: 24, done.                                                                                        </spaN>
@@ -100,7 +83,7 @@ instalar ele no Arch é bem straightforward.
 <sPAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                                                              </spAn>
 <sPAN class=' od ' style='color: rgb(0.00%, 0.00%, 0.00%); background: rgb(61.96%, 61.96%, 61.96%)'>[0] 0:bash  1:bash* 2:zsh  3:heimdall-frontend  4:vim-                                                  "G450" 07:26 01-Nov-21</sPaN>
 </prE>
-  </DIV>
+</DIV>
 
 
 
