@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+
+ 
+  <MeTa name='generator' content='XTerm(369)'>
+  <MEta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+  <link rel='Stylesheet' type='text/css' href='xterm.css'/>
+  <tiTlE>Xterm</TiTlE>
+  <StYlE>
+  body, pre { margin: 0 }
+  #vt100 {
+    float: left;
+    font-size: 12pt;
+    border: 0px solid rgb(0.00%, 0.00%, 0.00%);
+    padding: 2px;
+    background: rgb(0.00%, 0.00%, 0.00%)
+  }
+  .ul { text-decoration: underline }
+  .bd { font-weight: bold }
+  .it { font-style: italic }
+  .st { text-decoration: line-through }
+  .lu { text-decoration: line-through underline }
+  </styLe>
+ 
+ 
+  <diV id='vt100'>
+   <pRE><spaN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; git clone https://aur.archlinux.org/heimdall-git                                                                       </sPan>
+<span class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>Cloning into 'heimdall-git'...                                                                                                </Span>
+<span class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>remote: Enumerating objects: 24, done.                                                                                        </spaN>
+<SPAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>remote: Counting objects: 100% (24/24), done.                                                                                 </SPaN>
+<Span class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>remote: Compressing objects: 100% (24/24), done.                                                                              </spaN>
+<sPaN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>remote: Total 24 (delta 0), reused 24 (delta 0), pack-reused 0                                                                </sPan>
+<sPaN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>Unpacking objects: 100% (24/24), 8.95 KiB | 763.00 KiB/s, done.                                                               </SPAn>
+<Span class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; cd heimdall-git                                                                                                        </span>
+<spAn class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; # Instale o Heimdall no /usr/local ao invés do /usr                                                                    </SPaN>
+<SPAN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; sed -i -e 's@/usr/bin@/usr/local/bin@g' -e 's@/usr/share@/usr/local/share@g' -e 's@-DCMAKE_INSTALL_PREFIX="/usr"@-DCMAK</SPAn>
+<SPAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>E_INSTALL_PREFIX="/usr/local"@g' PKGBUILD                                                                                     </sPAn>
+<sPAn class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; # Cheque se tudo foi trocado corretamente dentro do PKGBUILD                                                           </SPan>
+<SPaN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; grep '/usr/local' PKGBUILD --color=always                                                                              </SpAN>
+<SpaN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>        cmake . -DCMAKE_INSTALL_PREFIX="</sPan><SPan class=' ev bd ' style='color: rgb(100.00%, 0.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/usr/local</SPaN><SPaN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>"                                                                           </sPan>
+<sPAn class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>        install -m644 -D "$srcdir/heimdall.desktop" "$pkgdir</spAn><SpAN class=' od bd ' style='color: rgb(100.00%, 0.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/usr/local</SPan><Span class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/share/applications/heimdall.desktop"                   </sPAn>
+<SpaN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>        install -m644 -D LICENSE "$pkgdir</SpAN><spAn class=' ev bd ' style='color: rgb(100.00%, 0.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/usr/local</SpAN><SPAn class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/share/licenses/$pkgname/LICENSE"                                          </sPAN>
+<sPaN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>        install -d "$pkgdir"</sPan><spAN class=' od bd ' style='color: rgb(100.00%, 0.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/usr/local</sPAN><spAn class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/bin                                                                                    </sPaN>
+<SpAn class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>        install -Dm755 bin/* "$pkgdir"</sPan><sPAn class=' ev bd ' style='color: rgb(100.00%, 0.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/usr/local</SpaN><spaN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>/bin/                                                                         </sPan>
+<sPAn class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; # Agora só compile o pacote usando o makepkg                                                                           </SpAN>
+<SpAN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>G450%; makepkg -si                                                                                                            </Span>
+<SPaN class=' ev bd ' style='color: rgb(100.00%, 100.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>==&gt; WARNING:</sPaN><SPAN class=' ev bd ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'> Cannot find the sudo binary. Will use su to acquire root privileges.</sPAN><SPAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                             </sPAn>
+<SPAn class=' od bd ' style='color: rgb(0.00%, 100.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>==&gt;</SPan><sPan class=' od bd ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'> Making package: heimdall-git 1.4.2.r10.g3997d5c-1 (Mon Nov  1 07:26:31 2021)</spAn><sPAn class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                              </SpAn>
+<SPAN class=' ev bd ' style='color: rgb(0.00%, 100.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>==&gt;</sPAn><SpAn class=' ev bd ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'> Checking runtime dependencies...</sPan><SpAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                          </Span>
+<spaN class=' od bd ' style='color: rgb(0.00%, 100.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>==&gt;</spAn><SPAn class=' od bd ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'> Checking buildtime dependencies...</sPaN><Span class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                        </sPAN>
+<SPaN class=' ev bd ' style='color: rgb(0.00%, 100.00%, 0.00%); background: rgb(0.00%, 0.00%, 0.00%)'>==&gt;</SPAn><SPAN class=' ev bd ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'> Retrieving sources...</spaN><spAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                                     </spAN>
+<sPan class=' od bd ' style='color: rgb(36.08%, 36.08%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>  -&gt;</sPAN><SPaN class=' od bd ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'> Cloning Heimdall git repo...</SpAn><SpAN class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                             </Span>
+<spAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>Cloning into bare repository '/var/tmp/heimdall-git/Heimdall'...                                                              </sPAN>
+<sPan class=' od ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                                                              </span>
+<sPAN class=' ev ' style='color: rgb(100.00%, 100.00%, 100.00%); background: rgb(0.00%, 0.00%, 0.00%)'>                                                                                                                              </spAn>
+<sPAN class=' od ' style='color: rgb(0.00%, 0.00%, 0.00%); background: rgb(61.96%, 61.96%, 61.96%)'>[0] 0:bash  1:bash* 2:zsh  3:heimdall-frontend  4:vim-                                                  "G450" 07:26 01-Nov-21</sPaN>
+</prE>
+  </DIV>
+
