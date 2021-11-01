@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Experimento: usando um Samsung Galaxy S3 Mini como um SoC
+title: "Experimento: usando um Samsung Galaxy S3 Mini como um SoC"
 ---
 
 Há umas semanas atrás, eu consegui um celular antigo da Samsung, um S3 Mini, era
