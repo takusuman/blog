@@ -51,6 +51,6 @@ livre (tá na MIT), criado pela Glass Echidna, que é uma empresa australiana qu
 produz software e presta consultoria de TI, ele tá disponível no AUR, então
 instalar ele no Arch é bem straightforward.
 
-{% include /blog/assets/xterm.2021.11.01.07.26.31.html %}
+{% include xterm.2021.11.01.07.26.31.html %}
 
 
