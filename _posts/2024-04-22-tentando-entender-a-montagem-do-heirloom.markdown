@@ -1049,21 +1049,32 @@ install:
 
 Perceba-se que cada programa ainda tem sua própria regra para ser instalado,
 afinal, como pode-se ver no próprio
-[site do Heirloom](http://heirloom-ng.pindorama.dob.jp), alguns têm variantes
-específicas para cada especificação, logo precisariam ser instalados em outro
-diretório além do padrão informado no ``build/mk.config`` como ``DEFBIN``.  
+[site do Heirloom](http://heirloom-ng.pindorama.dob.jp/#what), alguns têm
+variantes específicas para cada especificação, logo precisariam ser instalados
+em outro diretório além do padrão informado no ``build/mk.config`` como
+``DEFBIN``.  
 Primeiro, cria-se os diretórios, então instala-se cada programa a partir de sua
 própria regra e, por fim, façam-se as ligações no sistema de arquivos.
 
 Por padrão, caso não seja executado o alvo ``install``, esse arquivo meramente
 gera o ``intro.1``, que é uma página de manual para o pacote Heirloom em si, ao
 passar o arquivo de dependência ``intro.1.in`` para o _script_ em shell
-``genintro``. Ou seja, esse arquivo não faz nada, absolutamente nada de
-vital além de instalar o pacote; o que é até justificável, considerando que o
-arquivo contém diversas listas de comandos e adicionar tudo em um arquivo apenas
-seria deselegante e, além de tudo, atrapalharia quem quisesse estudar o sistema
-de montagem por si só ao aumentar o tamanho do ``makefile`` em pelo menos 90
-linhas.
+[``genintro.sh``](https://github.com/Projeto-Pindorama/heirloom-ng/blob/master/build/genintro.sh).
+
+**Linhas 1 até 4, [arquivo ``Makefile.mk``](https://github.com/Projeto-Pindorama/heirloom-ng/blob/master/Makefile.mk):**
+
+```makefile
+all: intro.1
+
+intro.1: intro.1.in
+	$(SHELL) build/genintro intro.1.in >intro.1
+```
+
+Ou seja, esse arquivo não faz nada, absolutamente nada de vital além de instalar
+o pacote; o que é até justificável, considerando que o arquivo contém diversas
+listas de comandos e adicionar tudo em um arquivo apenas seria deselegante e,
+além de tudo, atrapalharia quem quisesse estudar o sistema de montagem por si só
+ao aumentar o tamanho do ``makefile`` em pelo menos 90 linhas.
 
 Bem, fico por aqui. Esse artigo me tomou dois dias de pesquisa e quebração de
 cuca para entender o que estava acontecendo em diversos momentos, mas meu único
