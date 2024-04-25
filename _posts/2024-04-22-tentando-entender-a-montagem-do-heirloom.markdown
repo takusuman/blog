@@ -22,8 +22,7 @@ no sistema de montagem em si](https://github.com/Projeto-Pindorama/heirloom-ng/c
 --- que é escrito puramente em Makefile (usando do "dialeto", ou melhor, extensões
 do GNU) e shell, na boa e velha maneira de se fazer um sistema de montagem ---
 afinal, não havia um porquê de ir mais a fundo e entender além do que já era
-descrito no README do projeto original desde a primeira versão [desde pelo
-menos 2004](https://github.com/ryanwoodsmall/heirloom-project/blob/2ec07de0c363f8dec1cabbe02ed7b97a4358e59a/heirloom/README#L75C56-L83C17):
+descrito no README do projeto original [desde pelo menos 2004](https://github.com/ryanwoodsmall/heirloom-project/blob/2ec07de0c363f8dec1cabbe02ed7b97a4358e59a/heirloom/README#L75C56-L83C17):
 
 > The first thing to understand is the build system. This is actually quite
 > simple: Every directory contains a file named Makefile.mk that includes the
