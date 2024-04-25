@@ -11,7 +11,9 @@
 # If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
+
+encoding: utf-8
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -21,9 +23,7 @@
 title: ☺ sorria, você está sendo programado
 email: luiz.antonio.rangel@outlook.com.br
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Palavras ao vento.
 baseurl: "" # the subpath of your site, e.g. /blog
   #url: "https://takusuman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
   #domain: "takusuman.github.io"
@@ -31,8 +31,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  takusuman
 
 # Build settings
-#theme: minima
-remote_theme: kotet/ultralight
+theme: null
 plugins:
   - jekyll-feed
   - jemoji
@@ -61,3 +60,13 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
