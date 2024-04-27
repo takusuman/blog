@@ -893,6 +893,12 @@ si só, como vimos.
 
 Certo, mas o que é o ``$(MAKE)``? Em resumo, é uma forma do Make "se chamar"
 recursivamente, mas com os mesmos parâmetros.
+
+**Nota de revisão, 26 de Abril (Sexta-feira):** O Make já estaria sendo
+executado recursivamente a partir da declaração do laço _for_, pois pode-se
+ver um ``+`` antes, o que já ativaria a "bandeira" de recursão no código-fonte,
+como é mostrado mais à frente.
+
 Não precisaria se ir muito longe para se ver como funciona, apenas limpar
 a árvore de código-fonte do Heirloom depois de uma primeira compilação:
 
@@ -1024,7 +1030,7 @@ extensão para o MS-DOS e o IBM OS/2 que mantém os descritores de arquivos dos
 não caiba comentar muito além aqui.
 
 Finalmente, conseguiremos chegar onde queríamos: para que serve o bendito
-``Makefile`` gerado a partir do ``Makefile.mk``? E porque ele é chamado apenas
+``Makefile`` gerado a partir do ``Makefile.mk``? E por que ele é chamado apenas
 no final do laço _for_ que compila todos os programas e bibliotecas do Heirloom?  
 Quando analisamos o arquivo ``Makefile.mk``, vemos que ele contém regras
 específicas para criar a estrutura de pastas onde o Heirloom será instalado
