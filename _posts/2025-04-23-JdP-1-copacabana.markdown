@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jornal dos Pindoramas #1: O que foi feito pelo Copacabana nos últimos 4 anos?"
-date:   2025-4-23 18:52:00 +0300
+date:   2025-4-23 19:12:20 +0300
 categories: jdp copacabana
 ---
 
@@ -55,14 +55,18 @@ que tomam um tempo considerável de, no mínimo, dois dias para alguma mudança
 relevante, como o [gerenciador de
 pacotes](https://github.com/Projeto-Pindorama/pacote), que depende de algumas
 funções da [libcmon](https://github.com/Projeto-Pindorama/libcmon) ainda não
-implementadas e implementações alternativas de programas requisitados ---
+implementadas, e implementações alternativas de programas requisitados ---
 como, por exemplo, [o _port_ do programa ``patch`` do
 OpenBSD](https://github.com/Projeto-Pindorama/opatch) --- o que, sim, apesar de
 parecer dispensável, sempre foi um objetivo não apenas do Copacabana, mas
-essencialmente de todo o projeto Pindorama. É difícil encontrar contribuidores
-para esses projetos pois, quando não são hobbistas demais ao ponto de ainda
-não conseguirem ajudar por falta de conhecimento, ou estão contratados, ou estão
-com um burnout para lá de conveniente --- ou, até mesmo, as duas anteriores ---,
-então se torna um trabalho de uma pessoa só; o que felizmente não é o caso do
-Heirloom pois, por esse ser um projeto mais geral, trouxe maior interesse externo
-e, consequentemente, novos contribuidores.
+essencialmente de todo o projeto Pindorama.  
+É difícil encontrar contribuidores para esses projetos pois, quando não são 
+hobbistas demais ao ponto de ainda não conseguirem ajudar por falta de
+conhecimento, estão contratados, ou estão com um burnout para lá de conveniente
+--- ou, até mesmo, as duas anteriores ---, então torna-se um trabalho
+praticamente de uma pessoa só; o que felizmente não é o caso do Heirloom pois,
+por esse ser um projeto mais geral, trouxe maior interesse externo e,
+consequentemente, novos contribuidores, e que também não é o caso da mussel
+pois, como pode-se ver, é mais um trabalho de cooperação entre o projeto
+Pindorama e o [glaucus](https://glaucuslinux.org) do que algo que depende
+inteiramente de nós.
