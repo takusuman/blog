@@ -5,7 +5,7 @@ date:   2025-7-10 23:49:00 +0300
 categories: jdp copacabana
 ---
 
-**Note for non-lusophones: If you can't read any Portuguese, [click here]().**
+**Note for non-lusophones: If you can't read any Portuguese, [click here](https://translate.google.com/?sl=auto&tl=en&text=https%3A%2F%2Ftakusuman.github.io%2Fblog%2Fjdp%2Fcopacabana%2F2025%2F07%2F10%2FJdP-2-copacabana.html&op=translate).**
 
 Desde a última (e primeira) edição desse jornal --- que é mais um "devlog" ---,
 certo progresso vem a ser feito. Apesar de estar a um tempo sem fazer nenhum
