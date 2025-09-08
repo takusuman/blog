@@ -555,9 +555,9 @@ contador de caracteres de uma _string_ sem depender de nenhum comando externo.
 p=false
 n=0
 while ! $p; do
-	n=$(( $n + 1 ))
+    n=$(( $n + 1 ))
     printf '%d\n' $n
-	[ $n -eq $1 ] && p=true
+    [ $n -eq $1 ] && p=true
 done
 ```
 
@@ -1248,9 +1248,9 @@ No entanto, ainda continuei com uma pulga atrás da orelha: será que a pilha de
 memória em que as variáveis e as funções são guardadas é a mesma? Pois, se é,
 isso explicaria o porquê de "!", "#", "$" e outros caracteres não-permitidos
 para uso vulgar estarem na tabela de caracteres para identificadores __e__ com
-constantes próprias --- como vimos, ``_PCS`` para o "!", ``_NUM`` para "#" e
-``_DOL2`` para "$". Ao dar uma espiada na página de manual, os nomes dessas
-constantes ganham significado:
+constantes próprias --- como vimos, ``_PCS`` para o "``!``", ``_NUM`` para
+"``#``" e ``_DOL2`` para "``$``". Ao dar uma espiada na página de manual, os
+nomes dessas constantes ganham significado:
 
 >  The following parameters are automatically set by the
 >  shell.
@@ -1273,12 +1273,13 @@ que uma variável. Eu confesso que não tenho ideia imediata de onde esse termo
 surgiu, para ser franco.  
 Voltando ao manual, agora podemos ver que "``_PCS``" na realidade corresponde
 ao número identificador de processo (P.ID.) do último comando que fora executado
-em plano de fundo (ou seja, "*__p__ro__c__es__s__ number of the last background
-command invoked*") e "``_NUM``" ao número de parâmetros passados a uma função
---- ou ao próprio shell --- (ou seja, "*__num__ber of positional parameters*");
-já "``_DOL2``" é apenas o símbolo de dólar, não fizeram nenhum acrônimo em
+em plano de fundo (ou seja, "<i><u>p</u>ro<u>c</u>es<u>s</u> number of the last 
+background command invoked</i>") e "``_NUM``" ao número de parâmetros passados a
+uma função --- ou ao próprio shell --- (ou seja, "<i><u>num</u>ber of positional
+parameters</i>").
+Já "``_DOL2``" é apenas o símbolo de dólar, não fizeram nenhum acrônimo em
 especial sobre o número identificador de processo do shell, logo presumi que
-fosse utilizado em mais além disso, mas não consegui achar referência imediata
+fosse utilizado em algo além disso, mas não consegui achar referência imediata
 no código a essa constante; no entanto, procurei e encontrei um macro chamado
 ``dolchar()``, que é usada em uma função chamada ``getch()``, essa que é parte
 do mecanismo de análise sintática do próprio shell e que lida, justamente,
