@@ -1009,8 +1009,8 @@ _array_ ``sh_ctype2`` que é, efetivamente, uma tabela de caracteres usados
 dentro do shell para nomes de funções, passando por caracteres reservados,
 esses que são denotados por macros próprios ou por zeros, até caracteres
 válidos para se usar como identificadores, esses que são denotados pelos
-macros ``_LPC`` (para letras minúsculas, "*__l__owercase*") e ``_UPC`` (para
-letras maíusculas, "*__u__ppercase*"), já números são denotados pelo macro
+macros ``_LPC`` (para letras minúsculas, "_**l**owercase_") e ``_UPC`` (para
+letras maíusculas, "_**u**ppercase_"), já números são denotados pelo macro
 ``_DIG`` (que é uma abreviação clara de "dígito").
 
 **Linhas 87 até 134, [arquivo ``ctype.c``](https://github.com/ryanwoodsmall/heirloom-project/blob/master/heirloom-sh/ctype.c):**
@@ -1273,10 +1273,10 @@ que uma variável. Eu confesso que não tenho ideia imediata de onde esse termo
 surgiu, para ser franco.  
 Voltando ao manual, agora podemos ver que "``_PCS``" na realidade corresponde
 ao número identificador de processo (P.ID.) do último comando que fora executado
-em plano de fundo (ou seja, "<i><u>p</u>ro<u>c</u>es<u>s</u> number of the last 
+em plano de fundo (ou seja, "_**p**ro**c**es**s** number of the last 
 background command invoked</i>") e "``_NUM``" ao número de parâmetros passados a
-uma função --- ou ao próprio shell --- (ou seja, "<i><u>num</u>ber of positional
-parameters</i>").
+uma função --- ou ao próprio shell --- (ou seja, "_**num**ber of positional
+parameters_").
 Já "``_DOL2``" é apenas o símbolo de dólar, não fizeram nenhum acrônimo em
 especial sobre o número identificador de processo do shell, logo presumi que
 fosse utilizado em algo além disso, mas não consegui achar referência imediata
