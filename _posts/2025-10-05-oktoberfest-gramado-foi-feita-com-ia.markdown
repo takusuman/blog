@@ -42,7 +42,7 @@ Se você estudou um bocado sobre desenho, vai perceber que é, de certa forma,
 uma derivação do estilo CalArts, mas tão genérico, blasé e com uma matiz
 amarela tão forte que entrega logo de cara como e onde foi feito.  
 Sendo franco, fica feio, bem feio. Usar arte de IA não é (ou ao menos não
-deveria ser) do calibre de um evento como esses que agrega a imagem de uma
+deveria ser) do calibre de um evento como esses, que agrega a imagem de uma
 série de profissionais, que vão da classe de agricultores, artesãos e artistas
 da cidade --- muitos que, inclusive, adorariam uma oportunidade para trabalhar
 na parte artística do evento no lugar do ChatGPT --- até artistas e bandas que
@@ -52,8 +52,9 @@ webjornal](https://www.mironneto.com/gramado-tera-oktoberfest-detalhes-serao-rev
 você pode tentar me dizer que é um evento puramente da iniciativa privada,
 todavia, apesar do Miron ter dito explicitamente que não se trata de um
 evento realizado <u>diretamente</u> pela GramadoTur --- ou seja, não se trata
-de um evento de iniciativa pública mas sim de iniciativa privada ---, a própria
-prefeitura de Gramado afirmou [em um artigo na página da Secretaria do 
+de um evento de iniciativa pública mas sim de iniciativa privada ---, o que é
+verdade, a própria prefeitura de Gramado afirmou [em um artigo na página da
+Secretaria do
 Turismo](https://gramado.atende.net/cidadao/noticia/oktoberfest-gramado-e-festa-da-colonia-iniciam-evento-integrado-e-inedito-nesta-quinta-25)
 (e sobre o qual tive conhecimento por meio de um [artigo do webjornal Gramado
 Enfoco](https://www.gramadoenfoco.com.br/gramado/oktoberfest-gramado-e-festa-da-colonia-iniciam-evento-integrado-nesta-quinta-feira/))
@@ -85,35 +86,35 @@ vai:
 
 | ![](/blog/assets/img/Screenshot_20250930-220809.jpg) | 
 |:--:| 
-| *Que confraternização do balacobaco! Por mais que todo mundo pareça meio perdido... Bem, talvez seja a cerveja, mas deram até para a menininha?!* |
+| *Que confraternização do balacobaco! Por mais que todo mundo pareça meio perdido... Bem, talvez seja a cerveja, mas deram até para a menininha?!* |  
 
 | ![](/blog/assets/img/Screenshot_20250930-220820.jpg) | 
 |:--:| 
-| *"Féſtada COL"? Tá certo. Alguém avisa para o vovô aí que a cerveja está indo toda no chão?* |
+| *"Féſtada COL"? Tá tri certo. Alguém avisa para o vovô aí que a cerveja está indo toda no chão?* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025356.jpg) | 
 |:--:| 
-| *Shows de bandas locais? Maneiro.* |
+| *Shows de bandas locais? Maneiro.* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025506.jpg) | 
 |:--:| 
-| *Belo trombone, nunca tinha visto um feito para canhotos.* |
+| *Belo trombone, nunca tinha visto um feito para canhotos.* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025527.jpg) | 
 |:--:| 
-| *E me perdoe pela ignorância, mas também nunca tinha visto um violino com 3/2 cordas... Deve ser novidade para o violinista também, olha como ele está nervoso.* |
+| *E me perdoe pela ignorância, mas também nunca tinha visto um violino com 3/2 cordas... Deve ser novidade para o violinista também, olha como ele está nervoso.* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025321.jpg) | 
 |:--:| 
-| *Pelo visto o Harry Potter passou na Expo e resolveram tirar a foto no dia.* |
+| *Pelo visto o Harry Potter passou na Expo e resolveram tirar a foto no dia.* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025223.jpg) | 
 |:--:| 
-| *Mais shows e retomada da Festa da Colônia? Perfeito!* |
+| *Mais shows e retomada da Festa da Colônia? Perfeito!* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025303.jpg) | 
 |:--:| 
-| *Hmmm... O colega ali tá tocando com a bochecha? E está faltando uma penca de coisa nesse trombone, hein... E o da ponta ali comeu metade do instrumento?!* |
+| *Hmmm... O colega ali tá tocando com a bochecha? E está faltando uma penca de coisa nesse trombone, hein... E o da ponta ali comeu metade do instrumento?!* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025311.jpg) | 
 |:--:| 
