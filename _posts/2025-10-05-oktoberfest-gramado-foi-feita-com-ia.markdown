@@ -24,10 +24,10 @@ vez na própria Expogramado:
 | *Close no vídeo acima* |
 
 Você talvez esteja se perguntando como eu suspeitei que esse desenho foi feito em
-I.A., mais especificamente feito pelo ChatGPT, e a resposta é simples: quando você
-pede <u>apenas</u> para que a I.A. faça um desenho, sem especificar um estilo, ela
-terá um estilo padronizado, com essa matiz amarela.  
-Eu não sei o prompt exato que utilizaram para isso, obviamente, mas, como
+IA, mais especificamente feito pelo ChatGPT, e a resposta é simples: quando você
+pede <u>apenas</u> para que a IA faça um desenho sem especificar um estilo, o
+resultado será padronizado e vai ter uma certa matiz amarela.  
+Eu obviamente não sei o prompt exato que utilizaram para isso mas, como
 acredito que tenha sido criado em cima dos bonecos feitos para o evento, eu
 resolvi tentar algo similar e pedi para o ChatGPT criar algo em cima de uma
 imagem real. Para fins de exemplo, resolvi usar um quadro de [um vídeo onde o
@@ -146,10 +146,9 @@ Arte em IA dá uma aparência de barato, de pouco esforço, de, com a devida vê
 golpe.  
 Eu verdadeiramente torço para que a Oktoberfest se repita ano que vem (e nos que
 vierem!), mas que esse tipo de coisa não.  
-Faço um adendo que me preocupa que nenhum artista ou jornalista aqui de Gramado
-ou região tenha feito uma declaração sobre isso e que eu seja o primeiro a fazer
-em 10 dias de evento. Em qualquer lugar do Brasil ou do mundo livre, isso teria
-sido pauta pelo menos entre os artistas locais nas primeiras horas em que fosse
-de conhecimento público. Talvez, nessas horas, a Dona Culpa não se case apenas
-com o escorpião no bolso dos organizadores e com a sonolência da GramadoTur, mas
-sim com a indiferença do nosso corpo de cultura.
+Concluindo, tenho de dizer que me preocupa que nenhum jornalista ou até algum
+artista mais midiático tenha feito alguma declaração sobre isso e que eu esteja
+sendo o primeiro. Lógico que cada artista tem sua vida particular e alguns ainda
+têm de manejar projetos comunitários ou estão ocupados com trabalhos privados,
+então não colocarei tanta pressão sob a classe artística em si; a questão é que
+ao menos a mídia local poderia ter tecido alguma observação.
