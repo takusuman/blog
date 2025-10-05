@@ -45,8 +45,8 @@ Sendo franco, fica feio, bem feio. Usar arte de IA não é (ou ao menos não
 deveria ser) do calibre de um evento como esses que agrega a imagem de uma
 série de profissionais, que vão da classe de agricultores, artesãos e artistas
 da cidade --- muitos que, inclusive, adorariam uma oportunidade para trabalhar
-na parte artística do evento no lugar do ChatGPT --- até artistas extremamente
-que estão na lista de shows.  
+na parte artística do evento no lugar do ChatGPT --- até artistas e bandas que
+estão na lista de shows.  
 Caso você tenha lido [a postagem do Miron Neto em seu
 webjornal](https://www.mironneto.com/gramado-tera-oktoberfest-detalhes-serao-revelados-sabado),
 você pode tentar me dizer que é um evento puramente da iniciativa privada,
@@ -58,7 +58,7 @@ Turismo](https://gramado.atende.net/cidadao/noticia/oktoberfest-gramado-e-festa-
 (e sobre o qual tive conhecimento por meio de um [artigo do webjornal Gramado
 Enfoco](https://www.gramadoenfoco.com.br/gramado/oktoberfest-gramado-e-festa-da-colonia-iniciam-evento-integrado-nesta-quinta-feira/))
 que o evento foi feito em parceria com a GramadoTur, e presumo que todos nós
-sabemos que essa parceria não foi um tapinha nas costas e um "pode contar
+saibamos que essa parceria não foi um tapinha nas costas e um "pode contar
 comigo", mas que envolveu capital, tanto indireto quanto, possivelmente,
 direto --- sim, capital direto: dinheiro, grana, bufunfa, _plata_,
 _l'argent_, _money_. Já deixo claro que eu não tenho certeza nenhuma sobre
@@ -130,8 +130,8 @@ Caso ainda haja alguma dúvida sobre isso, gostaria de deixar claro que sim,
 à Festa da Colônia. Me aqueceu o coração ver artesãos, produtores rurais e
 cozinheiros juntos no evento, anunciando e comercializando o fruto de trabalho
 duro. Foi legal, de coração.  
-Além disso, tivemos uma mescla cultural. Sertanejos, pagodeiros e, claro,
-bandas de música de inspiração alemã juntos, fazendo shows no mesmo espaço.
+Além disso, tivemos uma união cultural: sertanejos, pagodeiros e, claro,
+bandas de música de inspiração alemã unidos, fazendo shows no mesmo espaço.
 Não foi uma festa segregada, mas sim unida na diversidade --- assim como a
 cidade de Gramado desde sua fundação ---; o verdadeiro espírito brasileiro,
 que por si só é radicalmente americano (e que inspirou até os europeus a
@@ -143,7 +143,7 @@ depois de casos de conhecimento público como o ["Willy's Chocolate Experience",
 que se utilizou de IA para
 publicidade](https://en.wikipedia.org/wiki/Willy%27s_Chocolate_Experience).  
 Arte em IA dá uma aparência de barato, de pouco esforço, de, com a devida vênia,
-golpe.  
+golpe --- e isso afasta <u>muita</u> gente em um plano geral.  
 Eu verdadeiramente torço para que a Oktoberfest se repita ano que vem (e nos que
 vierem!), mas que esse tipo de coisa não.  
 Concluindo, tenho de dizer que me preocupa que nenhum jornalista ou até algum
