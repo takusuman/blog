@@ -89,7 +89,7 @@ vai:
 
 | ![](/blog/assets/img/Screenshot_20250930-220820.jpg) | 
 |:--:| 
-| *"Féſtada COL"... Bem... Alguém avisa para o vovô aí que a cerveja está indo toda no chão?* |
+| *"Féſtada COL"? Tá certo. Alguém avisa para o vovô aí que a cerveja está indo toda no chão?* |
 
 | ![](/blog/assets/img/Screenshot_20251005-025356.jpg) | 
 |:--:| 
