@@ -102,7 +102,7 @@ vai:
 
 | ![](/blog/assets/img/Screenshot_20251005-025527.jpg) | 
 |:--:| 
-| *E me perdoe pela ignorância, mas também nunca tinha visto um violino com 3/2 cordas... Deve ser novidade para o violinista também, olha como ele está nervoso.* |  
+| *E me perdoe pela ignorância, mas também nunca tinha visto um violino com 2+½ cordas... Deve ser novidade para o violinista também, olha como ele está nervoso.* |  
 
 | ![](/blog/assets/img/Screenshot_20251005-025321.jpg) | 
 |:--:| 
