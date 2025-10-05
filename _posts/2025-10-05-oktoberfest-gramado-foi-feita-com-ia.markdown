@@ -26,7 +26,7 @@ vez na própria Expogramado:
 Você talvez esteja se perguntando como eu suspeitei que esse desenho foi feito em
 IA, mais especificamente feito pelo ChatGPT, e a resposta é simples: quando você
 pede <u>apenas</u> para que a IA faça um desenho sem especificar um estilo, o
-resultado será padronizado e vai ter uma certa matiz amarela.  
+resultado será padronizado e também terá uma certa matiz amarela.  
 Eu obviamente não sei o prompt exato que utilizaram para isso mas, como
 acredito que tenha sido criado em cima dos bonecos feitos para o evento, eu
 resolvi tentar algo similar e pedi para o ChatGPT criar algo em cima de uma
