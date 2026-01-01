@@ -5,7 +5,7 @@ date:   2025-12-31 23:54:00 +0300
 categories: jdp copacabana
 ---
 
-**Note for non-lusophones: If you can't read any Portuguese, [click here]().**
+**Note for non-lusophones: If you can't read any Portuguese, [click here](https://takusuman-github-io.translate.goog/blog/jdp/copacabana/2025/12/31/JdP-3-reveillon.html?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=pt-BR&_x_tr_pto=wapp).**
 
 "Salve! Como é que vai?"  
 Começo esse devlog, tão demorado (e que eu deveria ter feito antes), citando a
