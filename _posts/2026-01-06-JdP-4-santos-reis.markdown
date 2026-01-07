@@ -5,6 +5,8 @@ date:   2026-01-06 22:43:00 +0300
 categories: jdp copacabana
 ---
 
+**Note for non-lusophones: If you can't read any Portuguese, [click here](https://takusuman-github-io.translate.goog/blog/jdp/copacabana/2026/01/06/JdP-4-santos-reis.html?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=pt-BR&_x_tr_pto=wapp).**
+
 Cheguei meio tarde, mas hoje é dia de Santos Reis!  
 Escrevo hoje uma edição mais corriqueira em complementação à [última edição do
 JdP](https://takusuman.github.io/blog/jdp/copacabana/2025/12/31/JdP-3-reveillon.html)
@@ -30,4 +32,6 @@ Também preciso colocar a Silicon Tabula de volta no ar, mas tenho de ver como
 configurar o Hugo (ainda). 
 
 No fim, creio que tenha sido mais uma lista de afazeres do que um devlog, mas
-vai ser importante para me guiar nesse mês.
+vai ser importante para me guiar nesse mês.  
+E, diga-se de passagem, eu provavelmente vou fazer mais um devlog em
+complemento a este nos próximos dias.
