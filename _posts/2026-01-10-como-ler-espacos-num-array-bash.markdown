@@ -45,9 +45,9 @@ espaços, afinal foi o mais simples de implementar na época:
 
 ```sh
 function show_prefix_info {
-	# [...]
+    # [...]
     prefix_info=($(grep "$prefixName" "$mitzune_prefix/prefixes"))
-	prefix_partition=$(df -H "${prefix_info[2]}" | awk 'FNR==2 {print $1}')
+    prefix_partition=$(df -H "${prefix_info[2]}" | awk 'FNR==2 {print $1}')
 ```
 
 A questão é que os tempos mudam e, apesar de não ser _essencial_ para o sistema
