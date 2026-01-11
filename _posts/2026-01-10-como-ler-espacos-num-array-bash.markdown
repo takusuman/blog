@@ -5,6 +5,8 @@ date:   2026-01-11 20:09:00 +0300
 categories: jdp copacabana
 ---
 
+**Note for non-lusophones: If you can't read any Portuguese, [click here](https://takusuman-github-io.translate.goog/blog/jdp/copacabana/2026/01/11/como-ler-espacos-num-array-bash.html?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=pt-BR&_x_tr_pto=wapp).**
+
 Caso eu ainda não tenha dito: sim, estou de férias! E em pleno litoral,
 olha só.  
 E, como diria algum jornalista/escritor/intelectual cujo nome não me lembro
