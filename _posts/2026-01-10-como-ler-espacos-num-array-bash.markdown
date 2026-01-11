@@ -60,7 +60,7 @@ mexer direto no código da Mitzune para poupar tempo.
 
 A primeira coisa que alguém pensaria é em usar o sed:
 
-``sh
+```sh
 sed 's/|/" "/g; s/\(.*\)/"\1"/'
 ```
 
