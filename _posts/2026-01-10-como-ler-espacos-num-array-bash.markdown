@@ -527,7 +527,7 @@ Organizando tudo isso numa tabela, só pelo frufru, temos:
 
 | tempo                            | real     | user     | sys      |
 |----------------------------------|----------|----------|----------|
-| ``read``  +  ``IFS='\|'``        | 0m00.03s | 0m00.01s | 0m00.01s |
+| ``read``  +  ``IFS='|'``        | 0m00.03s | 0m00.01s | 0m00.01s |
 | Manual (caractere por caractere) | 0m00.10s | 0m00.09s | 0m00.00s |
 | ``sed`` + ``for`` + ``read``     | 0m01.30s | 0m00.90s | 0m00.66s |
 
