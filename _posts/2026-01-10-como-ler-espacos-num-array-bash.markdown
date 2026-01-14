@@ -554,7 +554,7 @@ estritamente apenas o prefixo passado, e não similares (ex.: ``copacabana`` e
 ``copacabana-0.4``), mas isso é coisa pouca.
 
 À altura em que escrevo, a luz já voltou e não está mais tão calor. De fato, já
-termino de escrever hoje, dia 11, às 8h.  
+termino de escrever hoje, dia 11, às 20h.  
 Preciso otimizar não apenas código, mas também minha escrita. :^)
 
 E bem, depois de todo o artigo, talvez você ainda esteja se perguntando por que
