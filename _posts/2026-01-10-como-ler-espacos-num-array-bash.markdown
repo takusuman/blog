@@ -523,7 +523,8 @@ Ela não foi minimamente mais lenta, ela foi **13 vezes mais lenta** do que a
 "manual", essa que já era lenta comparada com o ``read``. Numa comparação dessa
 implementação diretamente com o ``read``, ela é cerca de **43 vezes mais
 lenta**.  
-Organizando tudo isso numa tabela, só pelo frufru, temos:
+Organizando tudo isso numa tabela, só pelo frufru (e para facilitar a vida dos
+"leitores _skimmers_"), temos:
 
 | tempo                            | real     | user     | sys      |
 |----------------------------------|----------|----------|----------|
@@ -531,10 +532,11 @@ Organizando tudo isso numa tabela, só pelo frufru, temos:
 | Manual (caractere por caractere) | 0m00.10s | 0m00.09s | 0m00.00s |
 | ``sed`` + ``for`` + ``read``     | 0m01.30s | 0m00.90s | 0m00.66s |
 
-
-Não sei por que organizei tudo isso numa tabela sendo que eu acabei de chegar na
-conclusão, mas tudo bem. Talvez tenha sido para deixar esse artigo um pouco mais
-"cientificóide".
+**Nota de 14/01/2026:** Acredito que valha a pena falar sobre o quão "à prova de
+balas" esses métodos são, já que essa é uma preocupação recorrente de qualquer um
+que esteja ganhando experiência com shell. Em suma, todos são "à prova de balas"
+no sentido de não termos interpretação de variáveis/subshells que venham a estar
+presentes (maliciosamente ou não) na linha a ser "parseada".
 
 Talvez uma forma decente de terminar esse artigo seja mostrando como isso fica
 no código da Mitzune.
