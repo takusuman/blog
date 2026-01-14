@@ -432,8 +432,8 @@ ignorando versões antigas do KornShell:
 ```sh
 if [[ -n ${.sh.version} ]]; then
     IFS='|' read -r -A t <<< "$s"
-else
-    IFS='|' read -r -A t <<< "$s"
+else # Bash
+    IFS='|' read -r -a t <<< "$s"
 fi
 ```
 
