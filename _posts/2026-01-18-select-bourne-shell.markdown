@@ -194,14 +194,18 @@ entrada do ``/dev/tty`` ao invés da entrada padrão a fim de evitar eventuais
 problemas com redirecionamentos; além disso, também utilizei a opção ``-r``
 (de "raw", "cru") pois não esperamos ter de tratar nada na string de índice,
 afinal é só um inteiro.  
-Também fiz questão de usar aspas duplas no ``eval``, só para garantir. 
+Também fiz questão de usar aspas duplas no ``eval``, só para garantir.  
 Ah, e claro, tratei a entrada duas vezes: primeiro, verificamos se a entrada é
-puramente numérica, afinal, estamos a lidar com índices e, em seguida,
-verificamos se o índice é válido.  
+puramente numérica --- afinal, estamos a lidar com índices --- usando o
+``expr`` com uma expressão que verifica se a entrada é totalmente numérica
+(e, caso for, retorna seu comprimento) e, em seguida, verificamos se o índice
+está dentro do intervalo válido que vai de 1 até o número total de elementos.  
 E bem, cá vai uma curiosidade (e um spoiler de um futuro JdP que aborde o
 [Heirloom NG](https://heirloom-ng.pindorama.net.br)): o Bourne shell não suporta
 expressões aritméticas nativamente, logo se torna necessário usar uma
-calculadora externa para tal, sendo o ``expr`` a mais comum.
+calculadora externa para tal, sendo o ``expr`` a mais comum por ser simples e
+rápido. Sim, o ``expr`` é como um canivete suíço no Bourne shell original e
+ainda encontra muito uso mesmo no POSIX.
 
 Para usar essa função é simples, sendo apenas questão de inseri-la na condição
 de um ``while`` **sem** um subshell (afinal precisamos das variáveis exportadas
