@@ -181,11 +181,15 @@ select_in() {
     done
     printf >&2 '%s' "$prompt3"
     read -r REPLY </dev/tty
+    if [ $? != 0 ]; then
+        return 1
+    fi
     if [ `expr "x$REPLY" : 'x[0-9]*$'` -gt 0 ] &&
-        [ $REPLY -ge 1 ] && [ $REPLY -le $# ]; then
+        [ "$REPLY" -ge 1 ] && [ "$REPLY" -le $# ]; then
         eval SELECTED=\"\$$REPLY\"
     fi
     export REPLY SELECTED
+    return 0
 }
 ```
 
@@ -193,7 +197,9 @@ Resolvi aplicar algumas boas-práticas aqui: primeiramente, estamos lendo a
 entrada do ``/dev/tty`` ao invés da entrada padrão a fim de evitar eventuais
 problemas com redirecionamentos; além disso, também utilizei a opção ``-r``
 (de "raw", "cru") pois não esperamos ter de tratar nada na string de índice,
-afinal é só um inteiro.  
+afinal é só um inteiro. Vale lembrar que devemos tratar ``EOF``s manualmente,
+verificando se o ``read`` retornou um código de erro e não apenas verificando se
+a string de retorno está vazia.  
 Também fiz questão de usar aspas duplas no ``eval``, só para garantir.  
 Ah, e claro, tratei a entrada duas vezes: primeiro, verificamos se a entrada é
 puramente numérica --- afinal, estamos a lidar com índices --- usando o
