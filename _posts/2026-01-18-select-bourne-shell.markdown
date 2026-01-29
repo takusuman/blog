@@ -38,11 +38,12 @@ compreensível a fim de simplicidade e de não incluir uma das _killer features_
 (que não é algo absolutamente insubstituível) do 88 no padrão geral:
 
 > select _identificador_  [  in _palavras_  . . .  ] ;do _lista_ ;done
+>
 >   O comando ``select`` exibe na saída de erro padrão (_file descriptor_ nº 2),
 >   o conjunto de **palavras**, cada uma numerada pelo seu índice. Se
 >   "in **palavras** ..." vier a ser omitido, então os parâmetros posicionais
->   ($@) serão utilizados em seu lugar.
->   O prompt PS3 é, então, exibido e uma linha é lida da entrada padrão.
+>   ($@) serão utilizados em seu lugar.  
+>   O prompt PS3 é, então, exibido e uma linha é lida da entrada padrão.  
 >   Se essa linha consistir do número de índice de uma das palavras listadas,
 >   então o valor da variável **identificador** será definido para a palavra
 >   correspondente. Se a linha estiver vazia, a lista com o conjunto de
@@ -53,7 +54,7 @@ compreensível a fim de simplicidade e de não incluir uma das _killer features_
 >   variável ``REPLY``. A **lista** é executada para cada seleção até que o
 >   ``select`` seja quebrado (``break``), o que é equivalente a um laço
 >   ``while``, ou até que um caractere de fim de arquivo --- ``EOF`` ou
->   Ctrl + D/^D --- seja encontrado.
+>   Ctrl + D/^D --- seja encontrado.  
 >   Caso a variável ``REPLY`` seja nula --- ou seja, um índice inválido foi
 >   informado ---, o conjunto de **palavras** com seus respectivos índices é
 >   impresso novamente, com o prompt PS3 a pedir uma nova resposta --- o que é,
@@ -213,7 +214,8 @@ done
 ```
 
 E cá vai um código de exemplo, usando todas as funcionalidades que
-implementamos. No espírito do Gramado in Concert, achei que seria interessante
+implementamos. No espírito do [Gramado in
+Concert](https://www.gramadoinconcert.com.br), achei que seria interessante
 usar a famigerada escala de Dó como exemplo:
 
 ```sh
