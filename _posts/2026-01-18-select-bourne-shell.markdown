@@ -23,12 +23,12 @@ levou a precisar usar o ``select`` nesse código.
 
 Em um certo momento, eu queria que fosse possível listar os IDs de cada um
 desses cronômetros numa lista a fim de selecioná-los para alguma ação em
-específica, afinal, o timewarrior faz uso desses IDs para a esmagadora
+específico --- afinal, o timewarrior faz uso desses IDs para a esmagadora
 maioria das operações.  
 Existem várias abordagens possíveis, como, por exemplo, pedir para o usuário
 inserir o ID em específico manualmente após rodar o ``timew summary`` e, caso
-não estivesse na lista de IDs, jogar uma mensagem de erro e repetir o pedido. 
-No entanto, algo como o ``select`` ainda seria uma menor opção, tanto por
+não estivesse na lista de IDs, jogar uma mensagem de erro e repetir o pedido.  
+No entanto, algo como o ``select`` ainda seria uma melhor opção, tanto por
 reduzir a possibilidade de erro quanto por ser mais rápido de usar, tendo apenas
 de digitar o índice numérico da lista.  
 Cá vai um trecho do manual do Korn Shell 88, onde o ``select`` apareceu
@@ -103,7 +103,9 @@ S145% indice_elemento a b c d e
 )
 Digite um índice: 1
 b
-S145% : Lembrete: nós contamos do zero aqui.
+S145% : Lembrete: nós contamos do zero aqui pois não
+S145% : me dei ao trabalho de adaptar a aritmética
+S145% : para um mero exemplo.
 ```
 
 No entanto, não temos como declarar arrays no Bourne shell e nem no POSIX, então
@@ -197,7 +199,7 @@ Resolvi aplicar algumas boas-práticas aqui: primeiramente, estamos lendo a
 entrada do ``/dev/tty`` ao invés da entrada padrão a fim de evitar eventuais
 problemas com redirecionamentos; além disso, também utilizei a opção ``-r``
 (de "raw", "cru") pois não esperamos ter de tratar nada na string de índice,
-afinal é só um inteiro. Vale lembrar que devemos tratar ``EOF``s manualmente,
+afinal é só um inteiro. Vale lembrar que precisei tratar ``EOF``s manualmente,
 verificando se o ``read`` retornou um código de erro e não apenas verificando se
 a string de retorno está vazia.  
 Também fiz questão de usar aspas duplas no ``eval``, só para garantir.  
