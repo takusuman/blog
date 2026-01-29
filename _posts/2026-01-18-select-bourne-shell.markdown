@@ -35,7 +35,7 @@ Cá vai um trecho do manual do Korn Shell 88, onde o ``select`` apareceu
 primeiro --- algo ligeiramente engraçado, pois o shell POSIX, que tem o o 88 
 como a maior, digamos, inspiração, não inclui essa função, o que talvez seja
 compreensível a fim de simplicidade e de não incluir uma das _killer features_
-(que não é algo absolutamente insubstituível) do 88 no padrão geral:
+(e que também não é algo absolutamente insubstituível) do 88 no padrão geral:
 
 > select _identificador_  [  in _palavras_  . . .  ] ;do _lista_ ;done
 >
