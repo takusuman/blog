@@ -252,8 +252,8 @@ E bem, talvez uma pergunta que possa ser-me feita é qual a licença para
 reutilizar esse código. Tudo nesse blog está na [CC-BY
 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br), que permite
 redistribuição franca desde que haja atribuição de créditos.  
-Por mim, faça o que tu queres, só credites me também.  
+Por mim, faça o que tu queres, só credita-me também.
 
 Finalizo esse artigo já de volta à Serra, depois de ter feito uma parte no
 ônibus e, claro, a grande maioria no litoral.
-Agradeço por ter lido até aqui. Até a próxima.
+Agradeço por ter lido até aqui. Até à próxima.
