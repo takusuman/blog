@@ -58,7 +58,7 @@ Nem uma mensagem de erro, nem um "esse navegador não é mais suportado" ou,
 até mesmo, um erro cru do JavaScript...
 Nada. Nadica de nada.  
 Todavia, naquele momento, eu ainda esperei um bocadinho na esperança de que
-aqueles 0% fariam-se em 100% pois, bem, seria menos inconveniente esperar mais
+aqueles 0% far-se-iam em 100% pois, bem, seria menos inconveniente esperar mais
 um minuto que fosse do que ter que pegar as minhas malas e ir para casa a pé,
 uma indiada que seria digna de uma milonga.  
 Ainda assim, nada. Preso em 0%.
@@ -118,11 +118,11 @@ então tomei a iniciativa de fazer uma análise mais profunda sobre.
 
 Sendo chato como sou, decidi pesquisar mais sobre a Estação Rodoviária para
 saber se seria cabível reclamar com eles/deles, principalmente porque, mesmo
-[estando sobre administração de _rēs prīvāta_ por
+[estando sob administração de _rēs prīvāta_ por
 concessão](https://sei.agergs.rs.gov.br/sei/documento_consulta_externa.php?id_acesso_externo=5218&id_documento=10000000209382&infra_hash=6a985f093353a3c408602168c0602973){:target="_blank"},
 ainda é _rēs pūblica_ --- como todas as estações rodoviárias centrais de um
 município no país, afinal, são consideradas obras anexas às estradas de
-rondagem, tanto quanto pontes, o que faz, tanto da obra quanto do
+rodagem, tanto quanto pontes, o que faz, tanto da obra quanto do
 terreno onde se situa, _rēs_ do Estado; isso é algo que vem desde, pelo
 menos, a [lei nº. 467/1937 (mais especificamente o art. 2º, al.
 b)](https://legis.senado.leg.br/norma/541843/publicacao/15713872){:target="_blank"},
@@ -259,7 +259,7 @@ responsável por obter as informações e salvá-las é o _crawler_ do Web Archi
 
 No entanto, mesmo com muita informação faltando na página, dá para se ter
 uma boa noção de que eles já vendiam hardware --- e também trabalhavam com
-acessoria de T.I., ao menos suponho por conta da seção sobre segurança e backups
+assessoria de T.I., ao menos suponho por conta da seção sobre segurança e backups
 --- desde aquela época e que sempre foram mais direcionados ao mercado
 corporativo.  
 A única captura do site deles pelo Web Archive que está inteira é de Agosto de
@@ -712,7 +712,7 @@ no entanto, é lógico que a Flexspot não acabou por aniquilar um concorrente
 no mercado de telefones celulares e muito menos causou incompatibilidade por
 má-fé, mas o resultado prático acaba sendo o mesmo e o motivo, uma
 obsolescência literalmente programada, também. Por falar nisso, lembrei que o
-agora vereador e antes prof.º Lazaretti nos fez refletir sobre a questão de
+agora vereador e antes prof. Lazaretti nos fez refletir sobre a questão de
 obsolescência programada e lixo eletrônico na sala de aula lá em 2019, dentro
 de um contexto maior sobre preservação ambiental, salvo engano --- por mais
 que o agora vereador provavelmente não lembre; afinal, ele parece ter ficado
