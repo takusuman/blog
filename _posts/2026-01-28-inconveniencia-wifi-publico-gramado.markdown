@@ -431,7 +431,7 @@ mais uma porcentagem.
 E, claro, o contrato da Flexspot cai perfeitamente nisso: o valor global para
 o exercício financeiro, isso é a soma de todos os custos do contrato para um
 "ano de orçamento da administração", é de R$ 3.648, com o serviço em si
-custando R$ 269 por mês (3.228 ao ano) e fechando o valor com uma taxa de
+custando R$ 269 por mês (R$ 3.228 ao ano) e fechando o valor com uma taxa de
 "instalação, configuração e treinamento" de R$ 420, essa que eu não tenho
 certeza se é única para todos os cinco anos em que o contrato vigora ou se é
 cobrada novamente a cada ano:
