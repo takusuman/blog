@@ -114,7 +114,7 @@ tema para um artigo com uma abordagem mais, digamos, "ciber-jornalística" além
 da crônica (e do opinativo), na linha do que eu fiz em Outubro do ano passado
 [quando falei sobre a 1ª Oktoberfest de
 Gramado](/blog/opinativo/2025/10/05/oktoberfest-gramado-foi-feita-com-ia.html){:target="_blank"},
-então tomei a iniciativa de fazer uma análise mais profunda sobre.
+então tomei a iniciativa de fazer uma análise mais profunda.
 
 Sendo chato como sou, decidi pesquisar mais sobre a Estação Rodoviária para
 saber se seria cabível reclamar com eles/deles, principalmente porque, mesmo
@@ -280,7 +280,7 @@ A propósito, cá vai um fun fact: a Gtek existe e atua há mais tempo, que são
 de 2002, do que o nosso atual --- e agora ex-chefe de gabinete do prefeito
 Tissot, [e "ex" com 179.289,98 motivos
 diferentes](https://archive.is/kDslc){:target="_blank"}, e mais alguns vários
-outros bons motivos que, se eu for lembrar e começar a divagar sobre, essa
+outros bons motivos que, se eu for lembrar e começar a divagar acerca, essa
 tangente vai aumentar tanto que será paralela ao raio --- ver. Rafael Ronsoni
 [tinha de idade quando assumiu a Subprefeitura da Várzea
 Grande](https://www.gramado.rs.leg.br/processo-legislativo/xvi-legislatura-2021-2024/rafael-ronsoni){:target="_blank"},
@@ -345,8 +345,8 @@ subpágina chamada ``licitacoes-e-contratos``, mas dentro da
 literalmente
 ``www.gramado.rs.leg.br/transparencia/licitacoes-e-contratos/licitacoes-e-contratos``.  
 E o que tem lá? --- você deve estar se perguntando. Bem, pelo visto é uma lista
-de afazeres que foi escrita por alguém da Câmara para a equipe de T.I. sobre
-como essa seção do site deve operar:
+de afazeres escrita por alguém da Câmara para a equipe de T.I.
+que descreve como essa seção do site deve operar:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260331_153315.png) |
 
@@ -504,9 +504,9 @@ e da história da cidade com maquinário e concreto para construir
 pseudo-cidadelas _faux européennes_ (ou
 helveto-[goianas](https://oglobo.globo.com/blogs/humor/sensacionalista/post/2024/09/justica-vai-construir-cela-no-estilo-greco-goiano-para-receber-gusttavo-lima.ghtml{:target="_blank"})
 se preferir) ditas de "alto padrão" para gente que não aparenta ter ao menos
-repertório sobre a cidade além das [clássicas fotos da Av. Borges de
+repertório acerca da cidade além das [clássicas fotos da Av. Borges de
 Medeiros](https://www.google.com/search?&udm=2&q=Av.+Borges+de+Medeiros)?  
-Se vocês precisarem de uma ideia sobre como pesar a mão, dou-lhes não uma,
+Se vocês precisarem de uma ideia de como pesar a mão, dou-lhes não uma,
 mas __duas__ de brinde: comecem a não emitir mais licenças de construção a
 torto e a direito como se fossem brindes de aniversário. Isso, há dois ou três
 anos, já teria impedido muito da desfiguração que vem a cavalo.  
@@ -547,7 +547,7 @@ lista licitações dentro dos critérios pesquisados de forma mais detalhada:
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/00e22f9d-62fc-4412-8972-2bc7f47c6b39.pdf.png) |
 
 Não há anexos lá por alguma razão, então não consegui ver detalhes maiores
-sobre a contratação de forma destrinchada, como fiz com a de 2025, o que eu
+acerca da contratação de forma destrinchada, como fiz com a de 2025, o que eu
 presumo ser porque o contrato foi feito sob a antiga lei de licitações, a
 8.666/1993 que já falei sobre antes, então eles não teriam obrigação legal
 de deixar esses dados disponíveis na Internet.  
@@ -648,9 +648,9 @@ Constituição de '88 foi seguido, desde que promulgado, absolutamente à risca,
 sem nenhum impedimento e/ou nenhuma lei que tentasse contorná-lo, o acesso
 franco à informação no Brasil, um país de 204 anos de história, __só
 existe há 38 anos__.
-Na prática, o buraco é mais embaixo --- e a prof.ª Solci disserta sobre isso
-em seu artigo com muito mais maestria do que eu poderia aqui ---, mas, em suma,
-a transparência estatal enquanto direito cidadão só foi ratificada com a lei
+Na prática, o buraco é mais embaixo --- e a prof.ª Solci disserta a respeito
+disso com muito mais maestria do que eu poderia aqui ---, mas, em suma, a
+transparência estatal enquanto direito cidadão só foi ratificada com a lei
 12.527/2011, a Lei de Acesso à Informação, ou seja, é algo que temos apenas
 __há 15 anos__.
 
@@ -714,10 +714,10 @@ má-fé, mas o resultado prático acaba sendo o mesmo e o motivo, uma
 obsolescência literalmente programada, também. Por falar nisso, lembrei que o
 agora vereador e antes prof. Lazaretti nos fez refletir sobre a questão de
 obsolescência programada e lixo eletrônico na sala de aula lá em 2019, dentro
-de um contexto maior sobre preservação ambiental, salvo engano --- por mais
-que o agora vereador provavelmente não lembre; afinal, ele parece ter ficado
-com amnésia desde que assumiu o cargo, ao menos não parece lembrar de muitos
-de seus ex-alunos, o que é uma pena.  
+de um contexto maior acerca da preservação ambiental, salvo engano --- por
+mais que o agora vereador provavelmente não lembre; afinal, ele parece ter
+ficado com amnésia desde que assumiu o cargo, ao menos não parece lembrar de
+muitos de seus ex-alunos, o que é uma pena.  
 Evoco o nome do Excelentíssimo Senhor Vereador não a fim de "mandar recado" por
 meio da tribuna e nem de tentar pressionar alguma alteração no contrato em
 si --- até porque, como já falei, ele tem a sua utilidade à Câmara e a
