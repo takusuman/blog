@@ -733,7 +733,7 @@ programador, já está pensando em como me "refutar"; inclusive, já sei até o
 argumento: ora pois, se a Flexspot tiver que tornar sua solução compatível
 para absolutamente todos os públicos, eles terão de portabilizar o código
 para rodar no navegador do Symbian! E cadê meu WhatsApp para Samsung Ch@t
-222?!?
+222?!?  
 São espantalhos engraçadinhos, mas, na prática, é um _ad ridiculum_, e a
 diferença entre a prática e o ridículo é homérica.  
 Apesar da porcentagem de fatia de mercado parecer pequena e, a cada dia que se
