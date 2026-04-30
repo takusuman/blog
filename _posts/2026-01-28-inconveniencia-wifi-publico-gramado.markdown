@@ -427,7 +427,8 @@ e reescrita praticamente do zero, a fim de também avaliar se o resultado da
 contratação foi eficiente e cortar papelada; mesmo assim, o inciso II do art.
 75 é (quase) idêntico ao inciso II do art. 24 da lei de 1993, com a diferença
 de que agora define um teto fixo (atualmente de R$ 50 mil) ao invés de uma
-porcentagem sobre o teto da modalidade, digamos, "padrão".  
+porcentagem sobre o teto da modalidade de concorrência por carta-convite para
+serviços e produtos em geral; a, digamos, "comum".  
 E, claro, o contrato da Flexspot cai perfeitamente nisso: o valor global para
 o exercício financeiro, isso é a soma de todos os custos do contrato para um
 "ano de orçamento da administração", é de R$ 3.648, com o serviço em si
