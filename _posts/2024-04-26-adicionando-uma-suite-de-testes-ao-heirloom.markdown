@@ -101,8 +101,8 @@ Nde 'ara t'i porang.
 ```
 
 Certo, agora seria bacana se conseguíssemos fazer isso por meio de um
-``Makefile`` próprio da pasta de testes. Comecemos criando um diretório e um
-arquivo ``Makefile.mk``.
+``Makefile`` próprio da pasta de testes. Comecemos criando uma nova pasta
+e um arquivo ``Makefile.mk``.
 
 ```console
 S145% mkdir build/test 
@@ -326,15 +326,15 @@ Agora algo que, parafraseando novamente Alighieri, rodeia a cabeça dia e noite
 é pensar numa forma sã --- e sana, mentalmente falando quanto para quem for
 ler tanto para quem for implementar para novos programas --- de implementar
 esses testes.  
-Pela razão de diminuir o tempo que levaria-se para escrever cada teste,
+Pela razão de diminuir o tempo que levar-se-ia para escrever cada teste,
 importamos os testes da última versão estável do Toybox até esse presente
 momento, a 0.8.11, pois lá já existem casos a serem testados e precisaremos
 fazer poucas alterações nesse sentido. O problema é que esses testes utilizam
-três funções, uma chamada ``testing``, outra chamada ``testcmd`` e a ``txpect``,
-e elas são muito complexas para sequer pensar em começar a simplificar, além do
-estilo de código diferir tanto do nosso que precisaríamos reescrever só para se
-encaixar no Heirloom, logo, é preferível que reescrevamos as funções de teste do
-zero a fim de se ter código novo e mais simples de manter.   
+três funções: uma chamada ``testing``, outra chamada ``testcmd`` e a ``txpect``,
+com todas elas sendo complexas demais para sequer pensar em começar a simplificar,
+além do estilo de código diferir tanto do nosso que precisaríamos reescrever só
+para se encaixar no Heirloom, logo, é preferível que reescrevamos as funções de
+teste do zero a fim de se ter código novo e mais simples de manter.  
 O primeiro pensamento é tentar buscar uma outra referência no mundo da Sun
 Microsystems ou da AT&T, pois casaria melhor com um projeto como o Heirloom, mas
 até onde pesquisei, nenhuma dessas empresas fez testes na época em que estavam
@@ -380,33 +380,180 @@ considerando que os testes foram originalmente importados do Toybox para que
 fossem adaptados, isso também significaria não apenas uma pequena modificação,
 mas também uma reescrita completa para algo que, mesmo similar, é outra
 linguagem de programação com outras funções e limitações.  
+Por mais que eu tenha dito anteriormente que eu não encontrei testes no mundo
+UNIX, eu não considerei o óbvio: BSDs. Enquanto esse artigo
+"fermentava", descobri que há uma implementação de uma suíte de testes na
+"Grande Tríade" de BSDs modernos, esses que são o FreeBSD, NetBSD e OpenBSD.
+Como qualquer pessoa normal faria, decidi clonar o repositório do FreeBSD para
+dar uma olhada:
+
+```console
+S145% git clone --mirror https://github.com/freebsd/freebsd-src
+Cloning into bare repository 'freebsd-src.git'...
+remote: Enumerating objects: 6202749, done.
+remote: Counting objects: 100% (1150/1150), done.
+remote: Compressing objects: 100% (525/525), done.
+remote: Total 6202749 (delta 802), reused 651 (delta 625), pack-reused 6201599 (from 5)
+Receiving objects: 100% (6202749/6202749), 3.27 GiB | 7.45 MiB/s, done.
+Resolving deltas: 100% (3803320/3803320), done.
+```
+
+Nessa brincadeira, descobri que o caminho onde ela reside, ``tools/regression``,
+foi criado em um commit que incluía código para alguns programas do 4.4BSD Lite
+que não estavam presentes na [base de código que foi bifurcada para se tornar
+o que viria a ser o FreeBSD, o
+386BSD](https://docs.freebsd.org/en/books/handbook/introduction/#intro-history) ---
+[esse que não via mais código vindo do C.S.R.G. da UC Berkeley desde o
+Net/2](https://web.archive.org/web/20160913232501/http://www.386bsd.org/past),
+[que foi lançado em Junho de 1991, coisa de três anos antes do 4.4BSD Lite, de
+Março de 1994](https://www.oreilly.com/openbook/opensources/book/kirkmck.html):
+
+```console
+S145% git -C freebsd-src.git/ log --reverse --oneline -- tools/regression
+9b50d9027575 BSD 4.4 Lite Usr.bin Sources
+9e9d8a4677a8 README reads: This directory is for regression test programs.
+b7c6d4477a48 Make it at least semi-worked
+# [...]
+S145% git -C freebsd-src.git/ show 9b50d9027575 -- tools/regression    
+commit 9b50d9027575220cb6dd09b3e62f03f511e908b8
+Author: Rodney W. Grimes <rgrimes@FreeBSD.org>
+Date:   Fri May 27 12:33:43 1994 +0000
+
+    BSD 4.4 Lite Usr.bin Sources
+
+Notes:
+    svn path=/cvs2svn/branches/CHRISTOS/; revision=1590
+
+diff --git a/tools/regression/usr.bin/sed/hanoi.sed b/tools/regression/usr.bin/sed/hanoi.sed
+new file mode 100644
+index 000000000000..d29c64836b33
+--- /dev/null
++++ b/tools/regression/usr.bin/sed/hanoi.sed
+:
+```
+
+Dentre eles, estava o ``sed``, que trouxe consigo dois programas de teste que
+precisavam ser operados de forma manual --- diga-se de passagem, um deles, o
+``hanoi.sed``, está presente no próprio Heirloom Toolchest, dentro do caminho
+``sed/test`` --- e um script de mais de 500 linhas em shell, o ``sed.test``
+(idêntico ao ``multitest.t`` caso esteja se perguntando), criado como uma
+primeira tentativa de automação:
+
+```console
+S145% git -C freebsd-src.git/ ls-files --with-tree=9b50d9027575 -- tools/regression
+tools/regression/usr.bin/sed/hanoi.sed
+tools/regression/usr.bin/sed/math.sed
+tools/regression/usr.bin/sed/multitest.t
+tools/regression/usr.bin/sed/sed.test
+```
+
+Mas ainda não é automatizado o suficiente para o que precisamos, então, apesar
+de podermos pegar alguns testes do ``sed.test`` para o nosso sed do Heirloom,
+ainda não temos exatamente uma referência completa para criarmos o nosso.
+
+Entretanto, o sistema de testes do OpenBSD nos é de interesse. Sim, ele é mais
+recente que o do FreeBSD e deriva do NetBSD, que já o fazia pelo menos desde
+1997 segundo o cabeçalho do arquivo ``Makefile``, tendo começado com testes para
+o processador de macros ``m4``:
+
+```console
+S145% git -C openbsd-src.git/ log --reverse --oneline -- regress/usr.bin
+f20e637ec8f Import NetBSD's m4 regression suite (we pass, btw)
+6588f020e8a Add vicious Fibonacci test. Our m4 runs against a hard limit pretty soon currently, but this will be fixed.
+7d3b7ef9dee Small perl script to create fibo.out. length parameter to try to push fibo.m4 further.
+da419dec913 Bump FIBOMAX to an interesting value
+d30492b3a34 make regression tests. Some of these we don't even pass, currently.
+c769c6e08d3 +make
+cef1eeeb4fc Real test for Posix compliance.
+2e34efd0920 More for loops checks.
+1a5be1c16b7 Trip piss-poor conditional parser.
+S145% git -C openbsd-src.git/ show f20e637ec8f
+commit f20e637ec8f3062a5b02c8d4c5beb9a7ea93a80c
+Author: espie <espie@openbsd.org>
+Date:   Sat Jul 1 00:31:01 2000 +0000
+
+    Import NetBSD's m4 regression suite (we pass, btw)
+
+diff --git a/regress/usr.bin/Makefile b/regress/usr.bin/Makefile
+new file mode 100644
+index 00000000000..fdc101bba80
+--- /dev/null
++++ b/regress/usr.bin/Makefile
+@@ -0,0 +1,6 @@
+:
+```
+
+A forma com que ele funciona é interessante: tem-se um arquivo ``.out``, com a
+saída esperada, e um arquivo de entrada para ser usado no programa em questão.  
+No caso dos testes para o ``m4`` que acabamos de ver, tinha-se um arquivo
+escrito para ser usado com o programa e que produz uma saída que deve ser igual
+ao que está no arquivo ``.out``, tudo isso feito de uma forma simples dentro de
+um Makefile, similar aos testes do pigz:
+
+**Linhas 9 até 18, [arquivo ``regress/usr.bin/m4/Makefile``](https://github.com/openbsd/src/blob/f20e637ec8f3062a5b02c8d4c5beb9a7ea93a80c/regress/usr.bin/m4/Makefile):**
+
+```makefile
+regress: test-ff_after_dnl test-m4wrap
+
+test-ff_after_dnl: ff_after_dnl.m4
+	m4 ff_after_dnl.m4 | diff - ${.CURDIR}/ff_after_dnl.out
+
+ff_after_dnl.m4: ff_after_dnl.m4.uu
+	uudecode ${.CURDIR}/ff_after_dnl.m4.uu
+
+test-m4wrap:
+	m4 ${.CURDIR}/m4wrap.m4 | diff - ${.CURDIR}/m4wrap.out
+```
+
+Em todos esses anos, nada mudou radicalmente. Para testes mais complexos, "joga-se"
+a saída do programa para um arquivo ``.log`` ou ``.res`` para depois ser comparado
+utilizando o programa ``cmp`` --- que, para fins de recordação quando formos
+implementar o sistema de testes em si, faço questão de mencionar que é um bocado
+mais simples e rápido que o ``diff`` por apenas detectar se há ou não alguma
+diferença e não prover uma análise completa delas ---, com um bom exemplo sendo a
+bateria de testes para o programa ``apply``:
+
+**Linhas 18 até 22, [arquivo ``regress/usr.bin/apply/Makefile``](https://github.com/openbsd/src/blob/master/regress/usr.bin/apply/Makefile):**
+
+```makefile
+t1:
+	@echo ${*}
+	${APPLY} "echo %1 %1 %1 %1" `cat ${.CURDIR}/${*}.in` > ${*}.res
+	@cmp -s ${.CURDIR}/${*}.out ${*}.res || \
+	    (echo "XXX ${*} failed" && false)
+```
+
+Até aqui, já teríamos uma referência boa o suficiente para partir logo para o
+código da suíte de testes, reescrevendo o "esqueleto" dos testes como funções
+simples em shell. A questão agora é: como escrever esse esqueleto?  
 O Leonardo ([``LeonardoCBoar``](https://github.com/LeonardoCBoar)), um amigo
 meu que estuda na UFABC e programa em C++, me recomendou uma batida de olho na
 introdução do [GoogleTest](https://google.github.io), que é, resumindo, um
-_framework_ para se escrever testes para programas em C++.
+_framework_ para se escrever testes para programas em C++.  
 Isso é uma enorme simplificação do que ele de fato faz, mas meu interesse é
 saber como os testes são escritos e o que pode-se importar de lá. Além de que,
 ao contrário do que realmente precisamos fazer, que é testar cada programa já
-compilado, o GoogleTest funciona como uma biblioteca que é chamada por um
-programa independente em C++ (escrito por quem vai fazer o teste) para testar
-funções do projeto em si. Escrevendo de forma mais técnica, o GoogleTest é um
-_framework_ para testes estruturais, vulgo testes de caixa-branca ("_white box
-tests_", em inglês), onde, como o nome diz, se conhece a estrutura do programa
---- ou, no caso de um projeto como o LLVM, dos programas e das bibliotecas do
-projeto --- e utiliza-se dessa vantagem para testar o código-fonte desde sua
-fundação; enquanto isso, precisamos fazer testes funcionais, vulgo testes de
-caixa-preta ("_black box tests_", em inglês), onde, por mais que conheçamos a
-estrutura de cada programa do pacote por termos acesso a seu código-fonte
-integral, iremos testar a funcionalidade do código-fonte já compilado,
-desconhecendo --- ou, melhor, ignorando --- sua estrutura interna, pois assim
-acaba por ser mais eficiente para testar se algum programa tem determinado
-problema em determinada plataforma, se os valores quebram em determinadas
-condições e afins.  
-Por mais que pareça loucura (ou idiotice), o objetivo é saber qual os métodos
-usados para se escrever os testes em si --- ou seja, como se compara o valor
-esperado com o valor real que será devolvido e afins ---, assim criando (ou
-melhorando) uma maneira para se escrever os nossos testes, no estilo
-sborniense (ou sbørniano? Talvez sbørnio?) de síntese.  
+compilado, o GoogleTest funciona como uma biblioteca chamada por um programa
+independente (escrito por quem vai fazer o teste) para testar funções do projeto
+em si. Escrevendo de forma mais técnica, o GoogleTest é um arcabouço, um
+_framework_, para testes estruturais, vulgo testes de caixa-branca ("_white box
+tests_", em inglês), onde, como o nome diz, se conhece a estrutura do programa e
+utiliza-se dessa vantagem para testar o código-fonte desde sua fundação --- o
+``go test`` funciona precisamente assim e, se você já fez um pacote para Go e
+precisou e/ou quis escrever testes, já imagina o que veremos ---; enquanto isso,
+precisamos mesmo fazer testes funcionais, vulgo testes de caixa-preta ("_black
+box tests_"), onde, por mais que conheçamos a estrutura de cada programa do
+pacote por termos acesso a seu código-fonte integral, iremos testar a
+funcionalidade do dito já compilado, desconhecendo --- ou, melhor, ignorando ---
+sua estrutura interna, pois assim acaba por ser mais eficiente para testar se
+algum programa em específico tem determinado problema em determinada plataforma,
+se determinados valores quebram em determinadas condições e afins --- e, diga-se
+de passagem, acabamos de ver um exemplo de testes de caixa-preta com os BSDs e,
+claro, com o Toybox.  
+Por mais que pareça loucura (ou idiotice), o objetivo é saber como os testes são
+escritos, como podemos fazê-los de forma mais legível, melhorando a maneira de se
+escrever os nossos testes, no estilo sborniense (ou sbørniano? Talvez sbørnio?)
+de síntese.  
 Na [página de introdução do
 GoogleTest](https://google.github.io/googletest/primer.html), é apresentado,
 além do funcionamento, conceitos interessantes que devem ser anotados para
@@ -471,9 +618,6 @@ enquanto _strings_ --- como, por exemplo, criar uma função específica para
 comparar números com vírgula. É necessário criar esse planejamento desde já
 pois, na hora de programar, dificilmente adicionaremos algo novo ao que já
 temos no papel.  
-Algo que descobri enquanto esse artigo "fermentava" é que o ``go test`` funciona
-de forma praticamente idêntica, então eu poderia ter utilizado-o de referência
-também.
 
 ## "_[...] sunt nate res omnes ab hac re una aptatione_": escrevendo novo código e adaptando testes
 
@@ -620,8 +764,8 @@ software para UNIX ---, __mas que isso não significa que o Bourne shell
 tenha adotado-o__, até porque, segundo o arquivo ``cmd.c``, que define as
 palavras-chave usadas no shell, a última vez que o dito recebeu alguma
 alteração por mão da AT&T foi em __1989__, ou seja, coisa de __três anos
-antes__ do padrão ser lançado; depois disso, apenas alguns reparos foram
-feitos por mão da Sun Microsystems por cerca de 1996 e do Gunnar Ritter --- e
+antes__ do padrão ser lançado e, depois disso, apenas alguns reparos foram
+feitos por mão da Sun Microsystems por volta de 1996 e do Gunnar Ritter --- e
 isso já na era do Heirloom por volta de 2005.  
 Por mais que para mim e outros programadores de shell seja natural desferir
 diversos xingamentos contra a equipe da AT&T ou até mesmo estendê-los para o
@@ -927,16 +1071,16 @@ $ find . -type f -name '*.c' -print | xargs grep 'is not an identifier'
 Agora algo bem bacana: programas antigos em C e Assembly já utilizavam algo
 que viria a ser parte do princípio D.R.Y. de hoje em dia. Mesmo já conhecendo
 o que é o D.R.Y., eu desconhecia o fato dessa prática ser parte do princípio
-e, pensando ter um nome à parte --- até por ser uma prática comum em Java ---,
+e, pensando ter um nome à parte (até por ser uma prática comum em Java),
 fui consultar à comunidade [He4rt Developers](https://heartdevs.com) e recebi
 uma resposta do André Luís ([``andreluispy``](https://github.com/andreluispy))
-sobre e, bem, antes do conceito de D.R.Y. existir como algo unificado, essa
+sobre e, bem: antes do conceito de D.R.Y. existir como algo unificado, essa
 prática já era feita em código Assembly para diminuir a quantidade de coisa
 que precisaria ser digitada e repetida ao criar uma constante com a _string_ de
-erro em uma época onde não havia muito espaço disponível no terminal para
+erro, isso em uma época onde não havia muito espaço disponível no terminal para
 representar muitos caracteres e, no caso de uma mensagem de erro utilizada em
 várias ocasiões, onde os compiladores não eram tão espertos para cortar uma
-possível redundância, ou seja, não custava muito estender isso até C.  
+possível redundância, ou seja, não custava muito estender essa prática até C.  
 
 Certo, voltando ao código, vejamos em qual arquivo o ``notid`` é mencionado:
 
@@ -1004,14 +1148,14 @@ Esse macro é, de tão simples, complexo. Mas, fazendo uma aposta segura baseada
 no que eu consegui entender, esse macro verifica se o caractere ``c`` é menor do
 que ``QUOTE`` --- esse que é definido em
 [``mac.h``](https://github.com/ryanwoodsmall/heirloom-project/blob/master/heirloom-sh/mac.h)
-como 0200 --- e, em seguida, se verifica se o valor de ``c`` está presente no
-_array_ ``sh_ctype2`` que é, efetivamente, uma tabela de caracteres usados
-dentro do shell para nomes de funções, passando por caracteres reservados,
-esses que são denotados por macros próprios ou por zeros, até caracteres
-válidos para se usar como identificadores, esses que são denotados pelos
-macros ``_LPC`` (para letras minúsculas, "_**l**owercase_") e ``_UPC`` (para
-letras maíusculas, "_**u**ppercase_"), já números são denotados pelo macro
-``_DIG`` (que é uma abreviação clara de "dígito").
+como 128 (ou 0200 em octal) --- e, em seguida, se verifica se o valor de ``c``
+está presente no _array_ ``sh_ctype2`` que é, efetivamente, uma tabela de
+caracteres usados dentro do shell para nomes de funções, passando por caracteres
+reservados, esses que são denotados por macros próprios ou por zeros, até
+caracteres válidos para se usar como identificadores, esses que são denotados
+pelos macros ``_LPC`` (para letras minúsculas, "_**l**owercase_") e ``_UPC``
+(para letras maíusculas, "_**u**ppercase_"), já números são denotados pelo
+macro ``_DIG`` (que é uma abreviação clara de "dígito").
 
 **Linhas 87 até 134, [arquivo ``ctype.c``](https://github.com/ryanwoodsmall/heirloom-project/blob/master/heirloom-sh/ctype.c):**
 
@@ -1083,7 +1227,7 @@ entretanto não aceita nada diferente disso.
 A ``setname()`` faz exatamente a mesma coisa, com o adendo de que, ao contrário
 da ``lookup()``, como o nome já explicita, não busca pelo identificador em uma
 tabela que relacione com a operação a ser feita, mas sim escreve --- ou
-"configura" (_set_) --- o identificador e seu correspondente na tabela.
+"configura" (_set_) --- o identificador (_name_) e seu correspondente na tabela.
 
 **Linhas 179 até 191, [arquivo ``name.c``](https://github.com/ryanwoodsmall/heirloom-project/blob/master/heirloom-sh/name.c):**
 
@@ -1103,19 +1247,19 @@ setname (	/* does parameter assignments */
 			argscan++;
 ```
 
-Bem, só um adendo antes da conclusão: talvez você me pergunte, _"Luiz, por que
+Bem, só um adendo antes da conclusão. Talvez você me pergunte: _"Luiz, por que
 não usaram a ``chkid()`` ao invés de reescrever a mesma coisa, só que com lógica
-diferente?"_; a resposta é simples, basta apenas que leiamos o resto da função e
-que entendamos que essa função não apenas verifica se um nome é válido e
-adiciona-o na tabela, mas sim procura pelo caractere que significa nomear uma
-variável, em outros termos o símbolo de igualdade (``=``), procura um espaço
-para o tal nome na tabela utilizando a função ``lookup()``, essa que falamos
-sobre anteriormente e que já faz a verificação completa, e então atribui o valor
-ao nome no espaço da tabela utilizando uma função chamada ``assign()``. 
+diferente?"_; a resposta é simples: basta apenas que leiamos o resto da função e
+que entendamos que ela não apenas verifica se um nome é válido e adiciona-o na
+tabela, mas sim procura pelo caractere que significa nomear uma variável, em outros
+termos o símbolo de igualdade (``=``), procura um espaço para o tal nome na tabela
+utilizando a função ``lookup()``, essa que falamos sobre anteriormente e que já faz
+a verificação completa, e então atribui o valor ao identificador no espaço da tabela
+utilizando uma função chamada ``assign()``. 
  
 Ademais, seria interessante que descubramos o que é o tal ``_PCS`` associado ao
-``!``, não custa nada, não é mesmo? Que procuremos nos arquivos de cabeçalho,
-terminados em ``.h``:
+``!``; não custa nada, não é mesmo?  
+Que procuremos nos arquivos de cabeçalho, terminados em ``.h``:
 
 ```console
 $ find . -type f -name '*.h' -print | xargs grep '_PCS' 
@@ -1230,17 +1374,13 @@ $ find . -type f -name '*.h' -print | xargs grep 'sh_ctype1'
 ```
 
 Quase todos esses macros, com exceção dos ``subchar()`` e ``escchar()``, que
-são usados pela função ``copyto()``, são usados pela função ``word()``.
+são utilizados pela função ``copyto()``, são utilizados pela função ``word()``.  
 Essas duas funções, ``word()`` e ``copyto()``, são usadas no processamento
 dos comandos passados ao shell em si. Logo, a tabela (ou _array_, chame como
 preferir) ``sh_ctype1`` é usada para delimitar caracteres que são usados na
-sintaxe da linguagem em si, como colchetes, aspas simples e duplas, etc --- já
-que é usada por macros que compõem funções que fazem toda a parte de
-processamento léxico da linguagem ---, enquanto a ``sh_ctype2`` é específica
-para os identificadores que são usados em funções e variáveis --- já que é
-usada por macros que compõem a inserção de valores declarados na memória,
-como vimos anteriormente na função ``setname()``, que chama uma série de
-outras funções para lidar com toda a parte de identificadores.
+sintaxe da linguagem --- como colchetes, aspas simples e duplas, etc ---, enquanto
+a ``sh_ctype2`` é específica para os identificadores que são usados em funções
+e variáveis.  
 Por isso --- não pelo adendo, mas sim pela explicação de como as funções operam
 para guardar uma variável/função na memória --- um identificador como
 ``37programa`` falha enquanto ``programa37``, não.   
@@ -1267,14 +1407,15 @@ nomes dessas constantes ganham significado:
 Vale lembrar, antes de se continuar, que um "parâmetro" nesse manual
 corresponde à mesma coisa que uma variável. No manual do Korn Shell 93, que
 teve o mesmo lugar de origem desse Bourne shell, os Laboratórios Bell, o termo
-"parâmetro" é utilizado também mas, na seção de "Expansão de Parâmetros"
-("_Parameter Expansion_"), o manual nos diz que um parâmetro é a mesma coisa
-que uma variável. Eu confesso que não tenho ideia imediata de onde esse termo
-surgiu, para ser franco.  
+"parâmetro" é utilizado também, sendo mencionado na seção "Expansão de
+Parâmetros" ("_Parameter Expansion_") que é a mesma coisa que uma variável.  
+Sendo honesto, eu confesso que não faço a mínima ideia do porquê esse termo
+ser usado em shell. Talvez uma aposta segura seja que é mais uma herança de
+ALGOL.  
 Voltando ao manual, agora podemos ver que "``_PCS``" na realidade corresponde
 ao número identificador de processo (P.ID.) do último comando que fora executado
 em plano de fundo (ou seja, "_**p**ro**c**es**s** number of the last 
-background command invoked</i>") e "``_NUM``" ao número de parâmetros passados a
+background command invoked_") e "``_NUM``" ao número de parâmetros passados a
 uma função --- ou ao próprio shell --- (ou seja, "_**num**ber of positional
 parameters_").
 Já "``_DOL2``" é apenas o símbolo de dólar, não fizeram nenhum acrônimo em
@@ -1389,11 +1530,11 @@ $ find . -type f -name '*.h' -print | xargs grep 'struct namnod'
 ./name.h:       struct namnod   *namrgt;
 ```
 
-Certo, consegui uma tela cheia de resultados (e que eu obviamente encurtei)
---- principalmente do arquivo ``defs.h``, que contém a definição de funções e
-algumas delas já conhecidas nossas, como a ``assign()`` ---, mas pude cortar
-praticamente todos e deixar só o arquivo ``name.h`` pois é o único que parece
-ter uma declaração. Vejamos o que há:
+Certo, consegui uma tela cheia de resultados (e que eu obviamente encurtei) ---
+principalmente do arquivo ``defs.h``, que contém a definição de funções e algumas
+delas já conhecidas nossas, como a ``assign()`` ---, mas pude cortar praticamente
+todos e deixar só o arquivo ``name.h`` pois é o único que parece ter uma
+declaração. Vejamos o que há:
 
 **Linhas 37 até 53, [arquivo ``name.h``](https://github.com/ryanwoodsmall/heirloom-project/blob/master/heirloom-sh/name.h):**
 
@@ -1425,13 +1566,24 @@ subshells, já a ``N_ENVCHG`` indica que aquela variável em questão foi
 alterada. Curiosamente a palavra-chave ``readonly`` já existe desde essa época,
 e é por causa dela que há a constante ``N_RDONLY``; todas essas constantes são
 para variáveis, já, o que diferencia funções de variáveis na pilha de memória é
-justamente a ``N_FUNCTN``. A execução da função é dada pela função ``execute()``
-no arquivo ``xec.c``, mas não irei entrar muito a fundo pois o intuito disso era
-apenas saber como o shell consegue colocar tudo numa pilha de memória só --- o
-que, de certa forma, também é uma influência de C, que também não permite essa
-traquinagem.  
-Também podemos ver que sim, _string_ é o único tipo disponível, o que sim, eu já
-sabia, você já sabia, todos nós sabíamos, a questão é que é interessante ver
+justamente a ``N_FUNCTN``. Essas constantes são utilizadas como características
+e são adicionadas ao campo ``namflg`` da estrutura ``namnod`` por meio de
+mascaramento de _bits_, que é mascarado (sem trocadilhos) pelo macro ``attrib()``,
+definido em ``defs.h``:
+
+```console
+$ find . -type f -name '*.h' -print | xargs grep 'attrib('
+./defs.h: #define               attrib(n, f)            (n->namflg |= f)
+```
+
+Já a execução da função declarada se dá pela função ``execute()`` no arquivo
+``xec.c``, mas não irei entrar muito a fundo pois, além de fugir do escopo por
+já estarmos mudando de assunto para como o shell executa comandos, o intuito
+dessa "pesquisa" foi apenas saber como o shell consegue colocar tudo numa pilha
+de memória só --- o que, de certa forma, também é uma influência de C, que
+também não permite a traquinagem de ter uma função e uma variável de mesmo nome.  
+Também podemos ver que sim, _string_ é o único tipo disponível --- o que sim, eu
+já sabia, você já sabia, todos nós sabíamos, a questão é que é interessante ver
 explicitamente que é do tipo ``unsigned char`` e que usa o identificador
 ``namval`` --- o que podemos comprovar olhando para a função ``dfault()``, dessa
 vez no arquivo ``name.c``, e vendo que o valor da variável, nela indicada como
@@ -1448,15 +1600,25 @@ dfault(struct namnod *n, const unsigned char *v)
 		assign(n, v);
 }
 ```
- 
-Estou consciente de que minha análise não é tão profunda quanto a que fiz em
+
+Estou ciente sobre minha análise não ser tão profunda quanto a que fiz em
 cima do GNU Make pois, de fato, não depurei o código do Bourne shell utilizando
-o GDB. Entretanto, caso alguém queira me corrigir com base em uma análise mais
+o GDB. Todavia, caso alguém queira me corrigir com base em uma análise mais
 profunda, está livre para tal, visto que [o código dele já foi portabilizado para
 UNIX-compatíveis modernos e existem n-maneiras de
-obtê-lo](https://www.in-ulm.de/~mascheck/bourne/#running).  
+obtê-lo](https://www.in-ulm.de/~mascheck/bourne/#running). Só me avise para que
+eu possa citar aqui.  
 
 Bem, com tudo isso em mente, podemos voltar ao código do começo:
 
+```sh
+p=false
+n=0
+while ! $p; do
+    n=`expr $n + 1`
+    printf '%d\n' $n
+	[ $n -eq $1 ] && p=true
+done
+```
 
 # ["Verum sine mendacio, certum, certissimum"](https://youtu.be/m0Xf5iBLokw): 
