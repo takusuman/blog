@@ -575,10 +575,13 @@ Inclusive, esse é __justamente__ o ponto principal deles fora o Wi-Fi:
 E tais serviços são úteis para quem tem a função de ser a voz (e a casa) do
 povo, ao menos para entender o perfil de quem aparece lá com frequência (ou
 não); seja para cobrar, seja para rasgar seda para o Partido.  
-Sim, o contrato da Câmara nunca especificou isso explicitamente --- por mais
-que a parte de "monitoramento de acessos à Internet" no contrato de 2021 possa
-ser interpretada para esse lado ---, mas muito possivelmente essas
-funcionalidades são utilizadas por estarem embutidas no serviço.
+Sim, o contrato da Câmara nunca __especificou__ isso --- por mais que a parte
+de "monitoramento de acessos à Internet" no contrato de 2021 possa ser
+interpretada para esse lado ---, mas muito possivelmente essas
+funcionalidades são utilizadas por estarem embutidas no serviço; e,
+francamente, não há nada de errado nesse ponto em específico (e nem ao menos
+moralmente), afinal, sintetizo a ideia e a repito: a casa do povo há de
+conhecê-lo e, se há ferramentas legítimas para isso, que sejam utilizadas.
 
 Agora você talvez esteja se perguntando por que eu revirei tudo isso se está
 tudo certo e quando a contratação da Flexspot pela Câmara tem uma
