@@ -281,8 +281,8 @@ de 2002, do que o nosso atual --- e agora ex-chefe de gabinete do prefeito
 Tissot, [e "ex" com 179.289,98 motivos
 diferentes](https://archive.is/kDslc){:target="_blank"}, e mais alguns vários
 outros bons motivos que, se eu for lembrar e começar a divagar acerca, essa
-tangente vai aumentar tanto que será paralela ao raio --- ver. Rafael Ronsoni
-[tinha de idade quando assumiu a Subprefeitura da Várzea
+tangente vai aumentar tanto que será paralela ao raio --- vereador Rafael
+Ronsoni [tinha de idade quando assumiu a Subprefeitura da Várzea
 Grande](https://www.gramado.rs.leg.br/processo-legislativo/xvi-legislatura-2021-2024/rafael-ronsoni){:target="_blank"},
 "apenas 21 anos".  
 Ou seja, se a Gtek fosse um CPF e não um CNPJ, já poderia até ser subprefeita, e
