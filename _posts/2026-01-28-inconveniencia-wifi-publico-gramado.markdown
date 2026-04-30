@@ -421,13 +421,13 @@ contextualizar o amparo legal, a "base na lei", para que a Flexspot fosse
 contratada diretamente.
 
 Você provavelmente percebeu que o amparo legal em questão é uma tal lei
-14.133/2021, não a 8.666/1993, e, fazendo um resumo resumido, ela é
-extremamente similar à de 1993, mas modernizada (inclusive, foi ela que
-instituiu o PNCP) e reescrita do zero, a fim de também avaliar se o resultado
-da contratação foi eficiente e cortar papelada; mesmo assim, o inciso II do
-art. 75 é (quase) idêntico ao inciso II do art. 24 da lei de 1993, com a
-diferença de que agora define um valor fixo (atualmente de R$ 50 mil), não
-mais uma porcentagem.  
+14.133/2021, não a 8.666/1993. Fazendo um resumo resumido, ela é extremamente
+similar à de 1993, mas modernizada (inclusive, foi ela que instituiu o PNCP)
+e reescrita praticamente do zero, a fim de também avaliar se o resultado da
+contratação foi eficiente e cortar papelada; mesmo assim, o inciso II do art.
+75 é (quase) idêntico ao inciso II do art. 24 da lei de 1993, com a diferença
+de que agora define um valor fixo (atualmente de R$ 50 mil), não mais uma
+porcentagem.  
 E, claro, o contrato da Flexspot cai perfeitamente nisso: o valor global para
 o exercício financeiro, isso é a soma de todos os custos do contrato para um
 "ano de orçamento da administração", é de R$ 3.648, com o serviço em si
