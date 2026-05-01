@@ -116,7 +116,7 @@ tema para um artigo com uma abordagem mais, digamos, "ciber-jornalística"; algo
 além da crônica (e do opinativo), na linha do que eu fiz em Outubro do ano passado
 [quando falei sobre a 1ª Oktoberfest de
 Gramado](/blog/opinativo/2025/10/05/oktoberfest-gramado-foi-feita-com-ia.html){:target="_blank"},
-logo tomei a iniciativa de fazer uma análise mais profunda a respeito.
+então tomei a iniciativa de fazer uma análise mais profunda a respeito.
 
 Sendo chato como sou, decidi pesquisar mais sobre a Estação Rodoviária para
 saber se seria cabível reclamar com eles/deles, principalmente porque, mesmo
