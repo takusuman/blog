@@ -18,7 +18,7 @@ para ligar, naturalmente fui para o WhatsApp, pois eu (e mais a torcida do
 Flamengo) costumo ligar por lá, isso quando não aviso por mensagem. Além disso,
 eu também estava com o saldo expirado, então não conseguia ligar pela boa e
 velha linha telefônica.  
-Logo fui atrás de uma conexão de Internet gratuita dentro da rodoviária.  
+Logo, fui atrás de uma conexão de Internet gratuita dentro da rodoviária.  
 Como de se esperar, tinha, e de forma bem convidativa até: "Gramado Free WiFi".
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260126-193227.jpg) |
@@ -308,8 +308,8 @@ Nisso, senti meu celular no bolso. Achei estranho, pois meu 4G não estava a
 funcionar de qualquer maneira por conta de uma má configuração de APN do chip
 no aparelho (e que eu só corrigi depois que descobri que [o chip dos Correios
 não se "auto-configura" por padrão em todos os 
-aparelhos](https://www.correioscelular.com.br/configurar-internet/)), então não
-teria como receber notificação de nada além de SMS.
+aparelhos](https://www.correioscelular.com.br/configurar-internet/)), então
+não teria como receber notificação de nada além de SMS.
 Mas que zorra? Quem me mandaria um SMS em 2026? Além da operadora, lógico.  
 Então eu puxei o celular e fui ver o que era, e era uma notificação de "Faça
 login na rede Wi-Fi". Como eu já estava com esse assunto na minha cabeça,
