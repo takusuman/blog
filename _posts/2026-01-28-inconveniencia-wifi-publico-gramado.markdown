@@ -18,7 +18,7 @@ para ligar, naturalmente fui para o WhatsApp, pois eu (e mais a torcida do
 Flamengo) costumo ligar por lá, isso quando não aviso por mensagem. Além disso,
 eu também estava com o saldo expirado, então não conseguia ligar pela boa e
 velha linha telefônica.  
-Logo, fui atrás de uma conexão de Internet gratuita dentro da rodoviária.  
+Logo fui atrás de uma conexão de Internet gratuita dentro da rodoviária.  
 Como de se esperar, tinha, e de forma bem convidativa até: "Gramado Free WiFi".
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260126-193227.jpg) |
