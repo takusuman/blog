@@ -778,8 +778,8 @@ um celular 'decente', não deveria pensar em viajar para Gramado" porque é um
 Eu faço questão de responder essa, por mais que eu tenha noção de que, para
 alguém que pensa assim, comunícipe ou não, as ideias aqui expressas acabam
 por ser complexas demais; além de que, sendo franco, creio que esse alguém 
-também não chegaria até este ponto do texto, e nem por falta de tempo, mas
-pelo puro exercício da ignorância.  
+também não passaria dos primeiros dois parágrafos, e nem por falta de tempo,
+mas pelo puro exercício da ignorância.  
 Antes de tudo, quero deixar claro que eu __não creio__ (para não dizer que
 tenho certeza absoluta) que a equipe de desenvolvedores responsável pelo
 portal da Flexspot pense de tal maneira e muito menos que eles tenham
