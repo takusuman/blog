@@ -66,19 +66,21 @@ Ainda assim, nada. Preso em 0%.
 Bem, peguei minhas malas e fui caminhando até ao Nacional --- que mudou de nome
 para Carrefour em 2023, para quem não conhece a cidade ---, esse que fica só uns
 300 metros depois da estação.  
-Quando cheguei, tentei conectar no Wi-Fi de lá, mas, como eu até já sabia que ia
-acontecer, a conexão caiu assim que eu saí de dentro do mercado, literalmente
-após passar pela porta da frente.  
-O Hard Rock Café, literalmente na frente do Nacional, tem uma conexão de
-Internet, mas adivinha só:
+Quando cheguei, tentei conectar no Wi-Fi de lá. Como eu até já sabia que ia
+acontecer, a conexão caiu assim que saí de dentro do mercado, literalmente após
+passar pela porta da frente.
+
+O Hard Rock Café, que fica literalmente na frente do Nacional, tem uma conexão
+de Internet. E adivinha só:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260126-193749.jpg) |
 
-Sem saber muito o que eu ia fazer, tentei conectar na rede do Rek Parking. Não é
-obrigação nenhuma deles servir Internet ao público, mas alguns desses quiosques
-eletrônicos oferecem uma conexão até que bem estável, mesmo que com curto alcance
---- seja por sorte ou por cortesia, afinal são poucos, tão poucos que só vi um
-até hoje (e eu apenas presumo que aquele não seja o único em toda a cidade).
+Sem saber muito o que fazer, tentei conectar na rede do Rek Parking.  
+Não é obrigação nenhuma deles servir Internet ao público, mas alguns desses
+quiosques eletrônicos oferecem uma conexão até que bem estável, mesmo que com
+curto alcance --- seja por sorte ou por cortesia, afinal são poucos, tão
+poucos que só vi um até hoje (e eu apenas presumo que aquele não seja o único
+em toda a cidade).
  
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/P_20260203_115643.jpg) |
 |:--:| 
@@ -94,14 +96,14 @@ uma senha. Muito provavelmente é para manutenção do quiosque.
 Quando eu já ia me preparando para a indiada de ir a pé, passo em frente a um
 Milky Moo que abriu recentemente ao lado do Nacional e vejo em meu celular que
 eles têm Wi-Fi, mas com senha.  
-Entrei e, um tanto que na cara-de-pau, pedi pela senha do Wi-Fi. Logo em
-seguida, uma das atendentes puxou o celular com um QR-code aberto e passou para
-a outra me deixar escanear. Agradeci a elas pela cortesia --- até porque há
+Entrei e, um tanto que na cara-de-pau, pedi pela senha do Wi-Fi. Na mesma hora,
+uma das atendentes puxou o celular com um QR-code aberto e passou para
+a outra me deixar escanear. Agradeci a elas pela cortesia, até porque há
 estabelecimentos lá por perto que se recusam a passar a senha do Wi-Fi se você
 não for comprar algo.  
 Escaneei, conectei e finalmente consegui me comunicar.  
-E algo que vale ser citado: a conexão funcionava perfeitamente do lado de fora,
-então deu para utilizá-la sem inconveniência nenhuma.  
+E algo que vale a pena ser citado é que a conexão funcionava perfeitamente do
+lado de fora, então deu para utilizá-la sem inconveniência nenhuma.  
 Graças a isso, consegui chegar em casa menos de 15 minutos depois.
 
 Não é a primeira vez que eu tenho alguma inconveniência com esse tipo de portal
@@ -110,11 +112,11 @@ probabilidade disso ser um problema muito maior com alguém que de fato não
 conheça a cidade --- principalmente considerando que o credenciamento para o
 XII Gramado in Concert estava para começar dois dias depois e que muita gente
 de fora, tanto da cidade quanto do país, estava a chegar ---, seria um excelente
-tema para um artigo com uma abordagem mais, digamos, "ciber-jornalística" além
-da crônica (e do opinativo), na linha do que eu fiz em Outubro do ano passado
+tema para um artigo com uma abordagem mais, digamos, "ciber-jornalística"; algo
+além da crônica (e do opinativo), na linha do que eu fiz em Outubro do ano passado
 [quando falei sobre a 1ª Oktoberfest de
 Gramado](/blog/opinativo/2025/10/05/oktoberfest-gramado-foi-feita-com-ia.html){:target="_blank"},
-então tomei a iniciativa de fazer uma análise mais profunda.
+logo tomei a iniciativa de fazer uma análise mais profunda a respeito.
 
 Sendo chato como sou, decidi pesquisar mais sobre a Estação Rodoviária para
 saber se seria cabível reclamar com eles/deles, principalmente porque, mesmo
@@ -152,13 +154,13 @@ iPhone 5 já era em 2019, com sete anos de idade. A diferença é que esse
 ainda funciona perfeitamente com tudo (ou bem, quase tudo).  
 Enfim, de volta ao que interessa.
 
-Abri o Google e pesquisei apenas o nome da empresa e, de primeira, já
-tinha o cartão de visita digital deles lá, com endereço, telefone e tudo mais,
+Abri o Google e pesquisei apenas o nome da empresa. De primeira, já tinha o
+cartão de visita digital deles lá, com endereço, telefone e tudo mais,
 além do site como primeiro resultado:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot 2026-03-23 at 16-19-20 Flexspot - Pesquisa Google.png) |
 
-A primeira coisa que percebi é que a empresa é aqui de Gramado --- o que
+A primeira coisa que percebi é que a empresa é aqui de Gramado, o que
 francamente me pegou de surpresa, afinal a gente não espera que uma cidade
 relativamente pequena vá ter uma empresa de tecnologia nesse porte.  
 Em seguida, vi que tinha uma avaliação para lá de calorosa vinda de um
@@ -173,12 +175,13 @@ do que como um mero elogio ao meu ver.
 E, diga-se de passagem, ele não é obrigado enquanto cliente (que suponhamos
 ser leigo) a saber de toda e qualquer incompatibilidade técnica do código que
 está por detrás do serviço e nem testá-lo em diversos aparelhos --- até porque
-isso é responsabilidade da equipe de programadores ---, então é absolutamente
-possível que ele tenha ficado enamoradamente satisfeito.  
+isso seria responsabilidade da equipe de programadores ---, então é
+absolutamente possível que ele tenha ficado enamoradamente satisfeito.  
 No embalo e em paralelo, eu voltei à página de pesquisa principal e rolei mais
-um bocadinho, e vi que eles têm um LinkedIn, o que é natural --- toda empresa,
-principalmente de software, de tamanho pequeno a grande e que tenha ambições
-de continuar a expandir suas operações em alguma escala, vai manter um:
+um bocadinho, e vi que eles têm um LinkedIn; o que é natural, já que toda
+empresa, principalmente de software, de tamanho pequeno a grande e que tenha
+ambições de continuar a expandir suas operações em alguma escala, vai manter
+um:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260324_150904.png) |
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/2026-03-24 15.15.34 br.linkedin.com dc3e89017460.png) |
@@ -192,9 +195,9 @@ a avaliação ali em cima também trabalha na Flexspot.
 Eu realmente fiquei intrigado para saber se não seria, por ventura, a mesma
 pessoa. Como eu não tenho mais conta no LinkedIn faz um tempo --- ao menos
 desde que estive empregado, ou seja, desde 2022 ---, não consegui olhar a
-lista de funcionários por ali para ver qual era a posição de cada um.
+lista de funcionários por ali para ver qual era a posição de cada um.  
 Fui, então, descobrir pelo menos quem era dono ou sócio ali daquela lista,
-ao menos para já matar algumas possibilidades.  
+para já matar algumas possibilidades.  
 Existem várias formas de ver quem está por trás de uma empresa (e o contrato
 social por inteiro), tanto independentes --- como o ``minhareceita.org``, de
 co-autoria e atualmente operado pelo Eduardo Cuducos
@@ -203,12 +206,12 @@ direto da Receita e o redisponibiliza em formato JSON; também há outros
 serviços que operam de forma parecidíssima ao ``minhareceita.org``, mas de
 código-fechado e com foco comercial ---, quanto pelo próprio gov.br, por meio
 da ferramenta de consulta pública de CNPJ do Redesim
-(``consultacnpj.redesim.gov.br``) que, apesar de disponibilizar os mesmos dados
-que qualquer cidadão brasileiro conseguiria ter acesso simplesmente indo ao
-[Portal de Dados Abertos do Ministério da
+(``consultacnpj.redesim.gov.br``), que, apesar de disponibilizar os mesmos
+dados que qualquer cidadão brasileiro conseguiria ter acesso simplesmente indo
+ao [Portal de Dados Abertos do Ministério da
 Fazenda](https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-juridica---cnpj){:target="_blank"}
 e baixando um arquivo .zip,
-prende esses dados atrás de uma janela de logon do gov.br, mas, bem, isso é
+prende esses dados atrás de uma janela de logon do gov.br. Mas, bem, isso é
 mero detalhe.  
 Por uma questão de formalidade, decidi usar a Redesim diretamente.  
 Pesquisei pelo CNPJ, o qual eu já sabia por causa dos [termos de uso no site
@@ -241,14 +244,14 @@ No cartão de visita ainda tem um link para o Instagram e o Facebook, os quais
 decidi olhar porque por que não?  
 Eu tinha uma noção de que eles atuavam há tempos, como já falei --- e que,
 segundo o LinkedIn e o site, é desde 2015 ---, mas não sabia que eles eram
-realmente antigos, coisa que eles não escondem, pelo contrário.  
-A Flexspot é, na realidade, uma subsidiária da Gtek Informática. E sim,
-subsidiárias têm CNPJ e contrato social próprios, algo que eu também não sabia
-antes de sentar para escrever esse artigo.  
+realmente antigos; coisa que eles não escondem, pelo contrário.  
+A Flexspot é, na realidade, uma subsidiária da Gtek Informática.  
+E sim, subsidiárias têm CNPJ e contrato social próprios, algo que eu também não
+sabia antes de sentar para escrever esse artigo.  
 O nome Gtek sempre me foi conhecido. Não faço ideia até onde isso seria um caso
-de "efeito Mandela", mas lembro de ver adesivos com a logo deles em
-computadores, coisa que é de praxe de empresas que lidam com hardware, em vários
-lugares da cidade desde que eu moro aqui.  
+de "efeito Mandela", mas lembro de ver adesivos com a logo deles em computadores
+em vários lugares da cidade desde que eu moro aqui, coisa que é praxe de
+empresas que lidam com hardware.  
 Por curiosidade, fui ver o site deles, ``gtek.com.br``, no Web Archive, até
 porque o domínio aparece no WHOIS como tendo sido criado em Abril de 2001.  
 As versões mais antigas, que vão até 2004, estão com a parte gráfica quebrada,
@@ -258,13 +261,13 @@ responsável por obter as informações e salvá-las é o _crawler_ do Web Archi
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260330_155833.png) |
 
 No entanto, mesmo com muita informação faltando na página, dá para se ter
-uma boa noção de que eles já vendiam hardware --- e também trabalhavam com
-assessoria de T.I., ao menos suponho por conta da seção sobre segurança e backups
---- desde aquela época e que sempre foram mais direcionados ao mercado
+uma boa noção de que eles já vendiam hardware e também trabalhavam com
+assessoria de T.I. (ao menos suponho por conta da seção sobre segurança e
+backups) desde aquela época, e que sempre foram mais direcionados ao mercado
 corporativo.  
 A única captura do site deles pelo Web Archive que está inteira é de Agosto de
 2013, e cá pode-se ver que eles já trabalham com manutenção de equipamentos,
-além de terem expandido seus serviços de acessoria e agora também estarem de
+além de agora terem expandido seus serviços de assessoria e também estarem de
 olho na parte de redes:
  
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Serviços Gtek.png) |
@@ -273,11 +276,11 @@ olho na parte de redes:
 
 Em suma, eles têm café no bule. Não surgiram menos de 10 anos atrás para pegar
 uns "pilas" com código que foi 90% derivado de projeto de código-aberto e 10%
-porcamente remendado. E eu acredito que esse café também foi passado para o
+porcamente remendado; e eu acredito que esse café também foi passado para o
 bule da Flexspot.  
 A propósito, cá vai um fun fact: a Gtek existe e atua há mais tempo, que são
-23 anos, considerando que o contrato social da empresa tem a data de Outubro
-de 2002, do que o nosso atual vereador --- e agora ex-chefe de gabinete do
+23 anos (considerando que o contrato social da empresa tem a data de Outubro
+de 2002) do que o nosso atual vereador --- e agora ex-chefe de gabinete do
 prefeito Tissot, [e "ex" com 179.289,98 motivos
 diferentes](https://archive.is/kDslc){:target="_blank"}, e mais alguns vários
 outros bons motivos que, se eu for lembrar e começar a divagar acerca, essa
@@ -285,13 +288,15 @@ tangente vai aumentar tanto que será paralela ao raio --- Rafael Ronsoni
 [tinha de idade quando assumiu a Subprefeitura da Várzea
 Grande](https://www.gramado.rs.leg.br/processo-legislativo/xvi-legislatura-2021-2024/rafael-ronsoni){:target="_blank"},
 "apenas 21 anos".  
-Ou seja, se a Gtek fosse um CPF e não um CNPJ, já poderia até ser subprefeita, e
-com folga.  
+Ou seja, se a Gtek fosse um CPF e não um CNPJ, já poderia até ser
+subprefeita, e com folga.  
 E, diga-se de passagem, não se trata de tempo de contrato social, é tempo de
-atividade. E eu digo de novo: é café no bule, e não é pouco.
+atividade.  
+Isso me obriga a dizer de novo: é café no bule, e não é pouco.
 
-Em paralelo, quando esse artigo era só um rascunho na minha cabeça (e uns bons
-dias depois que cheguei de viagem), eu estava envolvido no Gramado in Concert.  
+Em paralelo, quando esse artigo era só um rascunho na minha cabeça --- e uns
+bons dias depois que cheguei de viagem ---, eu estava envolvido no Gramado in
+Concert.  
 Num fim de tarde, depois de subir de volta para a R. São Pedro, passei em
 frente à Câmara de Vereadores.
 
@@ -310,9 +315,9 @@ Então eu puxei o celular e fui ver o que era, e era uma notificação de "Faça
 login na rede Wi-Fi". Como eu já estava com esse assunto na minha cabeça,
 resolvi checar, até caso fosse para pegar mais material para esse artigo e
 conseguir fazer uma análise mais completa.  
-Imaginei, primeiramente, que era do Conecta Gramado, que eu já pretendia (e
-vou) citar aqui como exemplo a ser seguido; no entanto, diferente de outros
-pontos de acesso do programa pela cidade que mantêm o mesmo nome de rede, esse
+Imaginei, no primeiro momento, que era do Conecta Gramado, que eu já pretendia
+(e vou) citar aqui como exemplo a ser seguido. No entanto, diferente de outros
+pontos de acesso do programa pela cidade, que mantêm o mesmo nome de rede, esse
 aqui se chama "Hotspot Camara", e adivinhe:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260204-172709.jpg) |
@@ -320,17 +325,17 @@ aqui se chama "Hotspot Camara", e adivinhe:
 A Câmara de Vereadores de Gramado contratou a Flexspot. E o motivo?
 Vamos descobrir.  
 O governo, independente do nível, é obrigado a publicar sua intenção de compra
-em forma de uma licitação (o que eu creio que praticamente todo mundo saiba
-mesmo que pouca gente vigie), afinal, o que envolver a _rēs pūblica_ há de ser
-de conhecimento público.  
-Como de praxe, pesquisei pela página da transparência da Câmara de Vereadores,
-e o primeiro resultado do Google foi ``www.gramado.rs.leg.br/transparencia``.
+em forma de uma licitação --- o que eu creio que praticamente todo mundo
+saiba, mesmo que pouca gente vigie ---; afinal, o que envolver a _rēs pūblica_
+há de ser de conhecimento público.  
+Como de praxe, pesquisei pela página da transparência da Câmara de Vereadores
+e o primeiro resultado do Google foi "``www.gramado.rs.leg.br/transparencia``".
  
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260331_150548.png) | 
 
-Cliquei então em "Licitações e Contratos", que leva, como de se esperar, a
-uma subpágina chamada ``licitacoes-e-contratos``, onde com certeza deve ter uma
-interface que permita se buscar licitações e contratos. Certo?
+Cliquei então em "Licitações e Contratos" --- que leva, como de se esperar, a
+uma subpágina chamada "``licitacoes-e-contratos``" ---, onde com certeza deve
+ter uma interface que permita se buscar licitações e contratos. Certo?
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260331_151502.png) |
 
@@ -340,10 +345,10 @@ Ele simplesmente redireciona para uma página de logon, mas não diz nem ao meno
 onde pode-se criar uma conta.  
 Agora algo engraçado: se você pesquisar no Google por "``Câmara de Vereadores de
 Gramado licitações``", sem aspas, o primeiro resultado que aparece é de uma
-subpágina chamada ``licitacoes-e-contratos``, mas dentro da
-``licitacoes-e-contratos`` que acabamos de tentar acessar --- sim, é
+subpágina chamada "``licitacoes-e-contratos``", mas dentro da
+"``licitacoes-e-contratos``" que acabamos de tentar acessar --- sim, é
 literalmente
-``www.gramado.rs.leg.br/transparencia/licitacoes-e-contratos/licitacoes-e-contratos``.  
+"``www.gramado.rs.leg.br/transparencia/licitacoes-e-contratos/licitacoes-e-contratos``".  
 E o que tem lá? --- você deve estar se perguntando. Bem, pelo visto é uma lista
 de afazeres escrita por alguém da Câmara para a equipe de T.I.
 que descreve como essa seção do site deve operar:
@@ -353,14 +358,14 @@ que descreve como essa seção do site deve operar:
 > _"Não se deve exigir cadastro prévio para acessar as informações sobre
 > licitações e contratos. Caso exista essa."_
 
-Pelo visto alguém da TI fez bagunça mesmo com a instrução clara.  
+Pelo visto alguém da T.I. fez bagunça mesmo com a instrução clara.  
 É, padrão.  
 Enquanto eles não arrumam, a gente pode ir por força bruta ou ir ao Portal
 Nacional de Contratações Públicas, o PNCP.  
 Como vivemos numa república de estados unidos, apesar de cada estado (e cada
-município) ter sua autonomia, a União tem autoridade máxima; por conta disso,
-esses dados não estão com seu acesso sob monopólio do município, mas também
-devem ser acessíveis por meio dela.  
+município) ter sua autonomia, a União tem autoridade máxima. Por conta disso,
+esses dados também devem ser acessíveis por meio dela e seu acesso não está
+sob monopólio do município.  
 Se falar com anjo não adianta, vai ter que falar com Deus.
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260401_152328.png) |
@@ -373,9 +378,9 @@ Vários dados estão disponíveis aqui, mas o que nos interessa é a seção de
 Aqui temos um mecanismo de busca para todos os órgãos públicos do Brasil.  
 Eu selecionei a Câmara de Vereadores de Gramado e pedi para pesquisar por todos
 os tipos de instrumento convocatório --- vulgo licitações, simplificando o termo
---- e, por estar pesquisando por todos os tipos de licitações, o sistema me
-obrigou a procurar por uma palavra-chave em específico, que eu decidi ser
-"Wi-Fi" porque seria a mais provável de estar:
+--- e, por estar a fazer uma pesquisa ampla, o sistema me obrigou a procurar por
+uma palavra-chave em específico, que eu decidi ser "Wi-Fi" já que seria a mais
+provável de estar:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/Screenshot_20260401_162449.png) |
 
@@ -404,10 +409,10 @@ formalmente desde a República Velha, vide o [art. 51 do DPL nº.
 refinada e (muito) mais exigências foram postas, a fim de aumentar a
 transparência e estreitar ao máximo caminhos que pudessem levar à corrupção
 --- mais especificamente com o advento da Nova República, com a lei nº
-8.666/1993, sancionada pelo saudoso presid. Itamar Franco, que agora passou
+8.666/1993, sancionada pelo saudoso presid. Itamar Franco, que agora passa
 a exigir razão sólida e documental para essa modalidade (art. 26), e com
 previsão legal de punição em caso de superfaturamento (art. 25, § 2º) ---,
-além de demais possibilidades para que houvesse a contratação direta.  
+além de demais possibilidades para que houvesse contratação direta.  
 No entanto, mesmo que tenha havido um aumento de possibilidades, elas
 ainda resumem-se em casos de emergência, onde o serviço seja indispensável em
 uma janela de tempo muito pequena para que possam ocorrer todas as formalidades
@@ -422,17 +427,17 @@ contratada diretamente.
 
 Você provavelmente percebeu que o amparo legal em questão é uma tal lei
 14.133/2021, não a 8.666/1993. Fazendo um resumo resumido, ela é extremamente
-similar à de 1993, mas modernizada (inclusive, foi ela que instituiu o PNCP)
-e reescrita praticamente do zero, a fim de também avaliar se o resultado da
-contratação foi eficiente e cortar papelada; mesmo assim, o inciso II do art.
+similar à de 1993, mas modernizada --- inclusive, foi ela que instituiu o PNCP
+--- e reescrita praticamente do zero, a fim de também avaliar se o resultado da
+contratação foi eficiente e cortar papelada. Mesmo assim, o inciso II do art.
 75 é (quase) idêntico ao inciso II do art. 24 da lei de 1993, com a diferença
 de que agora define um teto fixo (atualmente de R$ 50 mil) ao invés de uma
 porcentagem sobre o teto da modalidade de concorrência por carta-convite para
-serviços e produtos em geral; a, digamos, "comum".  
+serviços e produtos em geral.  
 E, claro, o contrato da Flexspot cai perfeitamente nisso: o valor global para
-o exercício financeiro, isso é a soma de todos os custos do contrato para um
-"ano de orçamento da administração", é de R$ 3.648, com o serviço em si
-custando R$ 269 por mês (R$ 3.228 ao ano) e fechando o valor com uma taxa de
+o exercício financeiro --- isso é, a soma de todos os custos do contrato para
+um "ano de orçamento da administração" --- é de R$ 3.648, com o serviço em si
+custando R$ 269 por mês (R$ 3.228 ao ano), e fechando o valor com uma taxa de
 "instalação, configuração e treinamento" de R$ 420, essa que eu não tenho
 certeza se é única para todos os cinco anos em que o contrato vigora ou se é
 cobrada novamente a cada ano:
@@ -443,7 +448,7 @@ Até aí, tudo certo de ambos os lados.
 A questão que eu levanto é por que assinaram esse contrato em 2025 se o
 Conecta Gramado já existia desde 2023?  
 Agora a questão não seria nem capacidade técnica da Flexspot de prover um
-serviço inclusivo, mas sim essa (aparente) redundância de serviços.
+serviço inclusivo, mas sim essa __aparente__ redundância de serviços.
 
 Para quem não é daqui (ou só não conhece), o Conecta Gramado é um programa
 com a finalidade de oferecer Internet em locais públicos, e o faz de forma
@@ -455,16 +460,16 @@ O portal cativo dele é bem simples. Eu lembro que, de começo, ele pedia um
 logon e oferecia a você que criasse uma conta, mas isso foi substituído por
 um botão de aceite para os termos de serviço logo depois.
 
-O Estado por conta própria tende a lidar muito mal com tecnologia, então é
+O Estado, por conta própria, tende a lidar muito mal com tecnologia, então é
 lógico que esse serviço foi contratado e não feito do zero por algum setor
 de dentro da Secretaria Municipal de Inovação.  
 Eu lembro de que, na época em que o portal ainda pedia por um logon, tinha uma
 logo da Alcatel-Lucent. Mesmo sendo um baita acerto técnico, muito
 provavelmente foi uma contratação por ampla concorrência e não por dispensa,
-afinal não é barato instalar e gerenciar dezenas de roteadores pela cidade; eu
-também tive curiosidade de saber quem distribui os produtos da Alcatel-Lucent
-aqui no Brasil, afinal, até onde eu vi numa batida de olho, eles terceirizam a
-distribuição e o suporte aos produtos de país em país.  
+afinal não é barato instalar e gerenciar dezenas de roteadores pela cidade.
+Eu também tive curiosidade de saber quem distribui os produtos da
+Alcatel-Lucent aqui no Brasil, afinal, até onde eu vi numa batida de olho, eles
+terceirizam a distribuição e o suporte aos produtos de país em país.  
 Por conta disso (e já que esse artigo já estava demorando mesmo), resolvi catar
 qual era a licitação exata.  
 Deu trabalho e tive de recorrer a um bocado de "força bruta" no Google, mas
@@ -472,9 +477,9 @@ encontrei: foi uma licitação na modalidade de pregão eletrônico, com o crit�
 sendo menor preço por lote.
  
 De primeira, eu tinha encontrado o número do pregão em um desses agregadores de
-licitações. Como, ao menos para documentos, prefiro fontes oficiais, fui atrás
-das mesmas informações em algum portal de transparência do governo, o que eu só
-consegui (por alguma razão) no portal LicitaCon do TCE-RS:
+licitações. Como, principalmente para documentos, prefiro fontes oficiais, fui
+atrás das mesmas informações em algum portal de transparência do governo, o que
+eu só consegui (por alguma razão) no portal LicitaCon do TCE-RS:
 
 | [![](/blog/assets/img/inconveniencias_wifi_gramado/2026-04-10 14.47.41 portal.tce.rs.gov.br 0b5aa4707188.png)](https://portal.tce.rs.gov.br/aplicprod/f?p=50500:10:::NO::F50500_CD_ORGAO,P10_ID_LICITACAO,P10_PAG_RETORNO:49000,970568,11&cs=1kvbgEg3jABmkwoUb-JrjoWUogPg){:target="_blank"} |
 
@@ -484,41 +489,41 @@ De novo: não foi uma escolha técnica direta, foi justamente a inevitável
 concorrência no pregão que levou a esse fim.  
 E, por falar em acerto técnico, abro uma pequena tangente para dizer que a
 execução do Conecta Gramado está sendo um dos __únicos__ acertos de toda a
-administração Tissot em seus quase 16 anos somados de mandato, e não é só
+administração Tissot em seus quase 16 anos somados de mandato. Não é só
 para inglês ver, diferente de outros __aparentes__ acertos como, por exemplo,
 o decreto
 [2277/2025](https://gramado.atende.net/diariooficial/edicao/950){:target="_blank"},
 que impôs suspensão sobre novos projetos de hotéis e restaurantes, mas que,
 na prática, não serve para nada já que não afeta empreendimentos que
-realmente pesam na infraestrutura e no meio ambiente. Outro "acerto só para
-inglês ver" são as [novas placas que avisam sobre a presença de animais
-silvestres em vias de alto fluxo de
+realmente pesam na infraestrutura e no meio ambiente.  
+Outro "acerto" só para inglês ver são as [novas placas que avisam sobre a
+presença de animais silvestres em vias de alto fluxo de
 veículos](https://leiafacil.com.br/featured/gramado-instala-placas-para-proteger-animais-silvestres/){:target="_blank"},
-coisa que soa como uma baita gol de placa mas que, na prática, não tem
+coisa que soa como uma baita gol de placa, mas que, na prática, não tem
 nenhum peso a nível legal, nem ao menos uma multa [para quem praticamente as
-ignora](https://www.instagram.com/p/DWjiIVmjrZE/){:target="_blank"} --- e, a
-propósito, se a Secretaria Municipal do Meio Ambiente está tão preocupada em
+ignora](https://www.instagram.com/p/DWjiIVmjrZE/){:target="_blank"}.
+A propósito, se a Secretaria Municipal do Meio Ambiente está tão preocupada em
 "reduzir o risco de atropelamentos da fauna silvestre", por que não fazer um
 esforço conjunto com a Secretaria de Planejamento e começar a pesar a mão em
-cima de certas construtoras que vêm a passar por cima (literalmente) da fauna
-e da história da cidade com maquinário e concreto para construir
-pseudo-cidadelas _faux européennes_ (ou
+cima de certas construtoras e incorporadoras que vêm a passar por cima
+(literalmente) da fauna e da história da cidade com maquinário e concreto para
+construir pseudo-cidadelas _faux européennes_ (ou
 helveto-[goianas](https://oglobo.globo.com/blogs/humor/sensacionalista/post/2024/09/justica-vai-construir-cela-no-estilo-greco-goiano-para-receber-gusttavo-lima.ghtml{:target="_blank"})
 se preferir) ditas de "alto padrão" para gente que não aparenta ter ao menos
 repertório acerca da cidade além das [clássicas fotos da Av. Borges de
 Medeiros](https://www.google.com/search?&udm=2&q=Av.+Borges+de+Medeiros)?  
 Se vocês precisarem de uma ideia de como pesar a mão, dou-lhes não uma,
-mas __duas__ de brinde: comecem a não emitir mais licenças de construção a
-torto e a direito como se fossem brindes de aniversário. Isso, há dois ou três
-anos, já teria impedido muito da desfiguração que vem a cavalo.  
+mas __duas__ de brinde: comecem a __não__ emitir mais licenças de construção
+a torto e a direito como se fossem brindes de aniversário. Isso, há dois ou
+três anos, já teria impedido muito da desfiguração que vem a cavalo.  
 Para o futuro? Eu só espero (e faço minha parte para) que mais gente com
 ideias como as de Marina Silva tome o lugar de desenvolvimentistas, sejam da
-direita ou da traseira, no legislativo, e não estou a falar somente de
+direita ou da traseira, no legislativo --- e não estou a falar somente de
 Gramado.  
 Talvez assim possamos ter atos mais eficazes, como a criação de modelos de
 compensação tributária por dano histórico-ambiental contínuo --- e, até
 mesmo, que possa ser __também__ destinado ao social por meio de investimentos
-na cultura e na educação; afinal, não se pode permitir que esse tipo de
+na cultura e na educação; afinal não se pode permitir que esse tipo de
 """desenvolvimento""" urbano cause uma
 "[hukouização](https://pt.wikipedia.org/wiki/Hukou){:target="_blank"}"
 da nova população que virá, filha de quem foi "importado" como
@@ -548,45 +553,46 @@ lista licitações dentro dos critérios pesquisados de forma mais detalhada:
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/00e22f9d-62fc-4412-8972-2bc7f47c6b39.pdf.png) |
 
 Não há anexos lá por alguma razão, então não consegui ver detalhes maiores
-acerca da contratação de forma destrinchada, como fiz com a de 2025, o que eu
-presumo ser porque o contrato foi feito sob a antiga lei de licitações, a
-8.666/1993 que já falei sobre antes, então eles não teriam obrigação legal
-de deixar esses dados disponíveis na Internet.  
+acerca da contratação de forma destrinchada, como fiz com a de 2025. Presumo
+que isso seja porque o contrato foi feito sob a __antiga__ lei de licitações,
+a 8.666/1993 que já falei sobre antes, então eles ainda não teriam obrigação
+legal de deixar esses dados disponíveis na Internet.  
 Esse primeiro contrato foi renovado para 2022, 2023 e 2024 por meio de termos
-aditivos e, pouco antes de fazer cinco anos (limite de termos aditivos da antiga
-lei), foi refeito sob a nova lei, como recém mostrei.  
+aditivos e, pouco antes de fazer cinco anos, que é o limite de termos aditivos
+da antiga lei, foi refeito sob a nova lei (como recém mostrei).  
 Definitivamente, eu seria um ótimo roteirista de novela. Fiz questão de
 apresentar a lei antiga para licitações antes de falar da nova justamente
 porque, antes de escrever aquele bloco, eu já sabia que ela apareceria.  
 Uma pena que Vale Tudo já acabou... Talvez eu pudesse ter escrito um final
 melhor do que aquilo.
 
-Mesmo assim, a pergunta persiste e, por uma questão de honestidade com esse
-novo fato, irei refazê-la: por que continuar com o serviço nos anos de 2024 e
-2025 (e ainda renovar para mais cinco anos) quando o Conecta Gramado já
-funcionava a pleno vapor? Não seria redundante?
+Independentemente, a pergunta persiste e, por uma questão de honestidade com
+esse novo fato, irei refazê-la: por que continuar com o serviço nos anos de
+2024 e 2025 (e ainda renovar para mais cinco anos) quando o Conecta Gramado
+já funcionava a pleno vapor? Não seria redundante?
 
-Simples: a Flexspot não oferece apenas o serviço de portal cativo, cru, mas
-também todo um arcabouço para publicidade --- o que, na prática, é saber mais
-sobre quem frequenta seu estabelecimento e entra na sua rede.  
+Simples: Porque não é redundante na prática.  
+A Flexspot não oferece um serviço de portal cativo "cru", mas todo um
+arcabouço para publicidade --- o que, na prática, é saber mais sobre
+quem frequenta seu estabelecimento e entra na sua rede.  
 Inclusive, esse é __justamente__ o ponto principal deles fora o Wi-Fi:
 
 | ![](/blog/assets/img/inconveniencias_wifi_gramado/2026-04-18 23.13.14 flexspot.net 90f87da3bf2d.png) |
 
-E tais serviços são úteis para quem tem a função de ser a voz (e a casa) do
-povo, ao menos para entender o perfil de quem aparece lá com frequência (ou
-não); seja para cobrar, seja para rasgar seda para o Partido.  
+E é lógico que tais serviços são úteis para quem tem a função de ser a voz
+(e a casa) do povo, no mínimo para entender o perfil de quem aparece lá com
+frequência (ou não), seja para cobrar, seja para rasgar seda para o Partido.  
 Sim, o contrato da Câmara nunca __especificou__ isso --- por mais que a parte
 de "monitoramento de acessos à Internet" no contrato de 2021 possa ser
 interpretada para esse lado ---, mas muito possivelmente essas
 funcionalidades são utilizadas por estarem embutidas no serviço; e,
-francamente, não há nada de errado nesse ponto em específico (e nem ao menos
-moralmente), afinal, sintetizo a ideia e a repito: a casa do povo há de
-conhecê-lo e, se há ferramentas legítimas para isso, que sejam utilizadas.
+honra seja feita, não há nada de errado nesse ponto em específico (e nem ao
+menos moralmente), afinal, enfatizo: a casa do povo há de conhecê-lo e, se
+há ferramentas legítimas para isso, que sejam utilizadas.
 
 Agora você talvez esteja se perguntando por que eu revirei tudo isso se está
 tudo certo e quando a contratação da Flexspot pela Câmara tem uma
-finalidade.  
+finalidade real.  
 Uma resposta curta e "lacrada" é que foi porque eu sou chato, como já disse (e
 talvez com um certo orgulho).
 
@@ -595,13 +601,13 @@ precisam ser expostos ao sol de tempos em tempos para que não mofem, até
 porque mofo é uma coisa chata de conter depois. Ele se espalha fácil,
 principalmente em uma cidade úmida como Gramado, onde boa parte da população
 já não costuma abrir as janelas por boa parte do ano por receio de que esteja
-frio, e alguns por rabugentice mesmo.
+frio (e alguns por rabugentice mesmo).
  
-Existem cidades (e até mesmo estados) cujos registros públicos mofaram tanto que
-o mofo se espalhou além das paredes das instituições, já danificadas, e começou
-a se impregnar nas paredes de bares, mercados e casas, enfim, na _rēs prīvāta_,
-fazendo com que esses lugares se tornassem insalubres, tóxicos de se ficar por
-mais de alguns dias sequer. 
+Existem cidades, e até mesmo estados inteiros, cujos registros públicos mofaram
+tanto que o mofo se espalhou além das paredes das instituições, já danificadas
+há tempos, e começou a se impregnar nas paredes de bares, mercados e casas,
+enfim, na _rēs prīvāta_, fazendo com que esses lugares se tornassem insalubres,
+tóxicos de se ficar por mais de alguns dias sequer.  
 Um exemplo quase caricatural, e que creio que você já tenha ouvido de tão
 ridículo que foi, é o caso da cidade de São Luiz do Anauá, em Roraima. Vale
 a pena pesquisar mais sobre, até porque ele não envolveu apenas as
@@ -622,7 +628,7 @@ cobradas por banqueiros sobre títulos financeiros, a fim de que investidores
 pudessem saber o quanto realmente receberiam, tendo maior liberdade de escolha a
 partir do momento que teriam mais informação sobre onde estariam investindo.  
 O argumento de Brandeis também cobria o fato de que, com os investidores sabendo
-o quanto banqueiros receberiam de comissão, elas, naturalmente, por
+o quanto banqueiros receberiam de comissão, elas naturalmente, por
 pressão mercadológica, diminuiriam, assim com esses banqueiros acabando por
 acumular menos capital, e, por tabela, não concentrando mais tanto poder.
 Isso, claro, é apenas um resumo de um artigo de mais de três páginas.  
@@ -647,30 +653,30 @@ certeza graças ao excelente artigo da prof.ª Lúcia Helena Corrêa Solci,
 especialista em Ciência da Informação e docente adjunta na UFES,
 "[ACESSO À INFORMAÇÃO PÚBLICA NO BRASIL: DO IMPÉRIO À
 REPÚBLICA](https://agora.emnuvens.com.br/ra/article/view/823)".  
-Se formos otimistas e consideramos que o inciso XXXIII do art. 5 da
+Se formos otimistas e considerarmos que o inciso XXXIII do art. 5 da
 Constituição de '88 foi seguido, desde que promulgado, absolutamente à risca,
 sem nenhum impedimento e/ou nenhuma lei que tentasse contorná-lo, o acesso
-franco à informação no Brasil, um país de 204 anos de história, __só
-existe há 38 anos__.
+franco à informação no Brasil, um país de 204 anos de história, existiria
+__somente há 38 anos__.
 Na prática, o buraco é mais embaixo --- e a prof.ª Solci disserta a respeito
 disso com muito mais maestria do que eu poderia aqui ---, mas, em suma, a
 transparência estatal enquanto direito cidadão só foi ratificada com a lei
-12.527/2011, a Lei de Acesso à Informação, ou seja, é algo que temos apenas
+12.527/2011, a Lei de Acesso à Informação; ou seja, é algo que temos apenas
 __há 15 anos__.
 
 Antes tarde do que nunca, realmente. O meu ponto é que é algo que se demorou
 demais para se conquistar, assim como a democracia por si só, e que é bom
 usarmos sempre que tivermos qualquer questionamento em relação a alguma ação
-pública. Não custa dar uma batida de olho; e, se estiver tudo certo, não é
+pública. Não custa dar uma batida de olho --- e, se estiver tudo certo, não é
 nada mais do que a obrigação.
 
 A propósito, só um último comentário quanto à fiscalização: se cada um
 fizer sua parte de pesquisar seu candidato, votar corretamente e fiscalizar a
-sua cidade, o Brasil por inteiro vai ser melhor. Isso é patriotismo.  
+sua cidade, o Brasil por inteiro vai ser um país melhor. Isso é patriotismo.  
 Sim, eu compreendo que, para um trabalhador-médio --- ou até mesmo um
-estudante, vide que demorei praticamente três meses para costurar esse artigo
+estudante, vide que demorei mais de três meses para costurar esse artigo
 de cabo a rabo --- que passa &frac13; do dia na rua, tal trabalho seja bem
-difícil de se fazer (e é até pior onde não haja muita instrução).  
+difícil de se fazer. E é até pior onde não se tenha muita instrução.  
 A grande questão é que não precisa de todos os 200 milhões de brasileiros
 simultaneamente fiscalizando para fazer barulho.
 Há muita gente paga de revolucinha nas redes sociais e clama pelo fim da Nova
@@ -694,10 +700,11 @@ recente da Nova República em que a máquina pública da União foi utilizada pa
 compra de votos, como os vários "Auxílios Brasil" criados na segunda metade de
 2022 ---, afinal eles, além de terem isonomia e critérios para participar, são
 essenciais para a reinserção de diversos cidadãos no mercado de trabalho a
-partir do momento em que lhes dá o mínimo de dignidade.
+partir do momento em que esses recebem o mínimo de dignidade.
 
 E que bom que tudo está nos conformes aqui em relação aos contratos da
-Câmara com a Flexspot, ruim mesmo seria se tivesse algum problema.  
+Câmara com a Flexspot, ruim mesmo seria se tivesse algum problema.
+ 
 A fiscalização, muitas das vezes, serve para provar que alguém é
 verdadeiramente honesto.
 
@@ -705,47 +712,48 @@ Então, o que muda com a Flexspot tendo um contrato público ou não?
 Bem, agora eu, enquanto morador e contribuinte de Gramado, tenho absoluta vênia
 para cobrá-los pela incompatibilidade que o serviço deles apresenta com meu
 aparelho e, possivelmente, com mais outros.  
-E sim, eu reconheço que qualquer aparelho eventualmente será obsoleto, por mais
-que hoje em dia os saltos de uma geração para outra já não sejam tão grandes, a
-questão é que inconveniências como essa aceleram a percepção da finitude de uma
-plataforma que ainda tem um tempo de vida pela frente.  
+E sim, eu reconheço que qualquer aparelho eventualmente será obsoleto, por
+mais que hoje em dia os saltos de uma geração para outra já não sejam tão
+grandes.  
+A questão é que inconveniências como essa aceleram a percepção da finitude
+de uma plataforma que ainda tem um tempo de vida pela frente.  
 Há vários casos assim, principalmente nos dias de hoje, como o caso da
 [Meta removendo suporte para o WhatsApp sobre o
-KaiOS](https://faq.whatsapp.com/420008397294796/?helpref=uf_share){:target="_blank"};
-no entanto, é lógico que a Flexspot não acabou por aniquilar um concorrente
+KaiOS](https://faq.whatsapp.com/420008397294796/?helpref=uf_share){:target="_blank"}.
+No entanto, é lógico que a Flexspot não acabou por aniquilar um concorrente
 no mercado de telefones celulares e muito menos causou incompatibilidade por
 má-fé, mas o resultado prático acaba sendo o mesmo e o motivo, uma
-obsolescência literalmente programada, também. Por falar nisso, lembrei que o
-agora vereador e antes prof. Lazaretti nos fez refletir sobre a questão de
-obsolescência programada e lixo eletrônico na sala de aula lá em 2019, dentro
-de um contexto maior acerca da preservação ambiental, salvo engano --- por
-mais que o agora vereador provavelmente não lembre; afinal, ele parece ter
-ficado com amnésia desde que assumiu o cargo, ao menos não parece lembrar de
-muitos de seus ex-alunos, o que é uma pena.  
-Evoco o nome do Excelentíssimo Senhor Vereador não a fim de "mandar recado" por
-meio da tribuna e nem de tentar pressionar alguma alteração no contrato em
-si --- até porque, como já falei, ele tem a sua utilidade à Câmara e a
-Flexspot, reitero, trabalhou certo até hoje ---, mas a fim de lembrar já que
-não costumo ver ex-professores citados com frequência em textos opinativos no
+obsolescência literalmente programada, também.  
+Por falar nisso, lembrei que o agora vereador e antes prof. Lazaretti nos fez
+refletir sobre a questão de obsolescência programada e lixo eletrônico na
+sala de aula lá em 2019, dentro de um contexto maior acerca da preservação
+ambiental, salvo engano --- por mais que o agora vereador provavelmente não
+lembre, afinal ele parece ter ficado com amnésia desde que assumiu o cargo, ao
+menos não parece lembrar de muitos de seus ex-alunos, o que é uma pena.  
+Evoco o nome do Excelentíssimo Senhor Vereador não a fim de "mandar recado"
+por meio da tribuna e nem de tentar pressionar alguma alteração no contrato em
+si --- até porque, reitero, ele tem a sua utilidade à Câmara e a
+Flexspot trabalhou certo até hoje ---, mas a fim de lembrar já que não
+costumo ver ex-professores citados com frequência em textos opinativos no
 geral.
 
 Eu já consigo prever que algum tech bro, muito provavelmente também
-programador, já está pensando em como me "refutar"; inclusive, já sei até o
+programador, já está pensando em como me "refutar". Inclusive, já sei até o
 argumento: ora pois, se a Flexspot tiver que tornar sua solução compatível
 para absolutamente todos os públicos, eles terão de portabilizar o código
 para rodar no navegador do Symbian! E cadê meu WhatsApp para Samsung Ch@t
 222?!?  
-São espantalhos engraçadinhos, mas, na prática, é um _ad ridiculum_, e a
+São espantalhos engraçadinhos, mas, na prática, é um _ad ridiculum_. E a
 diferença entre a prática e o ridículo é homérica.  
-Apesar da porcentagem de fatia de mercado parecer pequena e, a cada dia que se
-passa, a fatia da última versão só crescer --- volatilidade que muito se deve
-a atualizações por rede (Over-the-air), que atualizam centenas de milhares de
-aparelhos literalmente da noite para o dia ---, versões mais antigas
-(pós-segunda metade de 2010 e pré-2020) do Android ainda são incrivelmente
-usadas, como o Pie (principalmente pelo Android Go), o Oreo e até mesmo o
-Nougat, visto que a própria Google ainda mantém suporte pelo Google Play
-Services.  
-Segundo o StatCounter, o Android Oreo (o que roda no meu aparelho), ainda
+Apesar da porcentagem de fatia de mercado parecer minúscula e, a cada dia que
+se passa, a fatia da última versão só crescer --- volatilidade que muito se
+deve a atualizações por rede (Over-the-air), que atualizam centenas de
+milhares de aparelhos literalmente da noite para o dia ---, versões mais
+antigas (pós-segunda metade de 2010 e pré-2020) do Android ainda são
+incrivelmente usadas, como o Pie (principalmente pelo Android Go), o Oreo e
+até mesmo o Nougat, visto que a própria Google ainda mantém suporte pelo
+Google Play Services.  
+Segundo o StatCounter, o Android Oreo (o que roda no meu aparelho) ainda
 segura firmemente 2,56% no mundo todo, [e essa estatística é de Janeiro desse
 ano](https://en.wikipedia.org/wiki/Android_Oreo#cite_note-4){:target="_blank"}.  
 Se eu for ser otimista e presumir que o portal da Flexspot roda sem nenhum
@@ -768,7 +776,7 @@ rodavam o tal Symbian) está na mão de colecionadores/hobbistas ou pifado no
 fundo de uma gaveta.
 
 E agora sei que algum de meus caros comunícipes, muito possivelmente simpático
-ao Partido, vai discordar de mim em absolutamente tudo nesse artigo; no entanto,
+ao Partido, vai discordar de mim em absolutamente tudo nesse artigo. Todavia,
 na falta de um argumento técnico, creio que o que virá é um argumento
 censitário com um pingo de bairrismo --- inclusive, bem comum (ao menos mais do
 que sequer deveria) em comentários de postagens de jornais locais no
@@ -777,21 +785,22 @@ um celular 'decente', não deveria pensar em viajar para Gramado" porque é um
 "chinelão".  
 Eu faço questão de responder essa, por mais que eu tenha noção de que, para
 alguém que pensa assim, comunícipe ou não, as ideias aqui expressas acabam
-por ser complexas demais; além de que, sendo franco, creio que esse alguém 
-também não passaria dos primeiros dois parágrafos, e nem por falta de tempo,
-mas pelo puro exercício da ignorância.  
+por ser complexas demais --- além de que, sendo franco, creio que esse alguém
+também não passaria dos primeiros parágrafos; e nem por falta de tempo, mas
+pelo puro exercício da ignorância.  
 Antes de tudo, quero deixar claro que eu __não creio__ (para não dizer que
 tenho certeza absoluta) que a equipe de desenvolvedores responsável pelo
 portal da Flexspot pense de tal maneira e muito menos que eles tenham
 "fabricado" a incompatibilidade, principalmente por não beneficiá-los de
-forma nenhuma, nem ao menos na performance do produto no aparelho do usuário;
-inclusive, acredito que isso seja uma questão que envolva, até mesmo, código
-externo como algum _framework_. Dito isso, bem, vamos ao que interessa.  
+forma nenhuma, nem ao menos na performance do produto no aparelho do usuário.
+Diga-se de passagem, acredito que isso seja uma questão que envolva, até
+mesmo, código externo, como algum _framework_.  
+Dito isso, bem, vamos ao que interessa.  
 A princípio, o argumento soa plausível. Gramado, para quem é turista, não é
 conhecida como uma cidade barata, visto que as experiências turísticas que
-fazem de Gramado o que é são, em geral, pagas. Logo, pode parecer lógico que
-quem __não consiga__ trocar de aparelho para um lançado após 2021 __também__
-não consiga aproveitar a cidade.
+fazem de Gramado o que é são, em geral, pagas.  
+Logo, pode parecer lógico que quem __não consiga__ trocar de aparelho para um
+lançado após 2021 __também__ não consiga aproveitar a cidade.
 
 Eu até poderia tentar peleijar me usando do fato de que Gramado tem ficado
 mais, digamos, "acessível" na última década --- principalmente com maior
@@ -799,9 +808,9 @@ competitividade no mercado de hotelaria, bares e restaurantes e com a expansão
 de acordos entre agências de viagem e empresas locais --- e também que, para
 quem vem morar aqui, Gramado se mostra, em vários aspectos, com um maior
 custo-benefício do que cidades como Caxias do Sul e Porto Alegre.  
-No entanto, além dessa abordagem, mesmo que verdadeira, legitimar esse
-argumento censitarista e barato para obsolescência programada --- e claramente
-ir contra a ideia de que o serviço deve ter o maior alcance social possível,
+No entanto, além dessa abordagem (mesmo que factual) legitimar esse argumento
+censitarista e barato para obsolescência programada --- e claramente ir contra
+a ideia de que o serviço deve ter o maior alcance social possível,
 principalmente quando se leva em conta que passou a ser contratado pelo Estado
 e pago pela população, mesmo que para servir só um prédio ---, o argumento por
 si só não tem lastro.  
@@ -816,10 +825,10 @@ de 90% dos bens de consumo duráveis) corresponde exatamente à capacidade
 financeira de alguém e de sua família.  
 Inclusive, dobro a aposta e digo que há um certo ponto em que a situação
 inverte: o quanto mais riqueza alguém tiver/administrar, mais difícil vai ser
-de fazer gastos em bens de consumo duráveis com frequência --- ou seja, em
-menos de cinco anos.  
+de fazer gastos em bens de consumo duráveis com frequência --- e, com
+"frequência", leia-se em menos de cinco anos.  
 Creio que todos nós tenhamos algum exemplo anedótico sobre isso para citar e,
-vira e mexe, sai algum na mídia.
+vira e mexe, sai algum na mídia como uma "curiosidade" sobre algum famoso.
 
 Ademais, considerando que Gramado é uma cidade bucólica, há de se considerar
 um outro caso: quem vem a fim de se desconectar pela maior parte do tempo.  
@@ -833,7 +842,7 @@ Mais especificamente, uma frase dela em uma [entrevista de Setembro de
 2020](https://usfigureskating.org/news/2020/9/28/rinkside-reigning-us-champ-alysa-liu-is-ready-for-season-of-change-with-new-coaching-team-programs.aspx),
 onde ela diz preferir ficar longe de redes sociais por achar o uso contínuo
 exaustivo.  
-A entrevista, sim, é antiga, mas ela parece manter esse posicionamento de
+Sim, a entrevista é antiga, mas ela parece manter esse posicionamento de
 uso mínimo até os dias de hoje.  
 Eu a cito não pela questão de hardware em si --- até porque ela carrega um
 Galaxy Z Flip aparentemente dado pela própria Samsung --- mas sim por ela
@@ -852,11 +861,12 @@ aceitaram, cá está:
 | :---: | :---: |
 |  |  |
 
-Sim, isso seria um exemplo relativamente extremo entre analógico ou digital ---
-e obviamente não estou dizendo que a Flexspot deveria começar a entregar papéis
-com a senha escrita para os seus clientes colarem nas paredes de seus
-estabelecimentos ---, mas, se ainda atualizam os menus físicos e arcam com os
-eventuais custos de mantê-los, é porque ainda são bem usados.
+Claro que isso seria um exemplo relativamente extremo entre analógico ou
+digital --- e obviamente não estou dizendo que a Flexspot deveria começar a
+entregar papéis com o nome e a senha do Wi-Fi escritos para os seus clientes
+colarem nas paredes de seus estabelecimentos ---, mas, se ainda atualizam os
+menus físicos e arcam com os eventuais custos de mantê-los, é porque ainda
+são bem usados.
 
 Não estou dizendo que eles mantêm os menus físicos **apenas** por causa de
 pessoas que ainda usam celulares antigos, mas é um bom exemplo do ponto que
