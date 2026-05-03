@@ -508,10 +508,10 @@ esforço conjunto com a Secretaria de Planejamento e começar a pesar a mão em
 cima de certas construtoras e incorporadoras que vêm a passar por cima
 (literalmente) da fauna e da história da cidade com maquinário e concreto para
 construir pseudo-cidadelas _faux européennes_ (ou
-helveto-[goianas](https://oglobo.globo.com/blogs/humor/sensacionalista/post/2024/09/justica-vai-construir-cela-no-estilo-greco-goiano-para-receber-gusttavo-lima.ghtml{:target="_blank"})
+helveto-[goianas](https://oglobo.globo.com/blogs/humor/sensacionalista/post/2024/09/justica-vai-construir-cela-no-estilo-greco-goiano-para-receber-gusttavo-lima.ghtml){:target="_blank"}
 se preferir) ditas de "alto padrão" para gente que não aparenta ter ao menos
 repertório acerca da cidade além das [clássicas fotos da Av. Borges de
-Medeiros](https://www.google.com/search?&udm=2&q=Av.+Borges+de+Medeiros)?  
+Medeiros](https://www.google.com/search?&udm=2&q=Av.+Borges+de+Medeiros+Gramado%2FRS){:target="_blank"}?  
 Se vocês precisarem de uma ideia de como pesar a mão, dou-lhes não uma,
 mas __duas__ de brinde: comecem a __não__ emitir mais licenças de construção
 a torto e a direito como se fossem brindes de aniversário. Isso, há dois ou
